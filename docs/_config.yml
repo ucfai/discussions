@@ -1,0 +1,31 @@
+remote_theme: "ucfsigai/global-site-theme@master"
+
+## site title
+title: Intelligence Group &ndash; SIGAI@UCF
+
+## this should become a google group, in a few weeks (04/30/18)
+email: ucfsigai@gmail.com
+
+## SIGAI@UCF mission
+description: >-
+  The Intelligence Group of SIGAI@UCF hosts lectures and workshops tailored towards
+  research in computational intelligence, neuroscience, and cognitive science. The 
+  lectures and workshops foster and refine interest in research, preparing students 
+  for research positions focused on illuminating the brain's power.
+
+## subpath, it's just "/intelligence"
+baseurl: "/intelligence"
+## protocol (http[s]) and tld (ucfsigai.github.io)
+url: "https://ucfsigai.github.io"
+social:
+  repo: ucfsigai/intelligence
+  slack: https://ucfsigai.slack.com/messages/CA73G96QM/
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+exclude:
+  - docker-compose.yml
+  - vendor/
