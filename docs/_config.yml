@@ -1,4 +1,4 @@
-remote_theme: "ucfsigai/global-site-theme@master"
+remote_theme: "ucfsigai/theme@master"
 
 ## site title
 title: Intelligence Group &ndash; SIGAI@UCF
@@ -24,8 +24,19 @@ social:
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
+  - jekyll-postfiles
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: club-meeting
+      permalink: /:categories/:title/
 
 exclude:
   - docker-compose.yml
   - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - .ruby-version
