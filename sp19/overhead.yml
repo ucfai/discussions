@@ -1,0 +1,23 @@
+#: #############################################################################
+#: coordinators:
+#:   - github: <github-username>
+#:     role: <your-role-in-ucfai>
+#: meetings:
+#:   primary:
+#:     wday: <weekday>
+#:     time: <start>-<end>
+#:     room: <building-code> <room-number>
+#:   supplementary: ... same as "primary"
+#: #############################################################################
+coordinators:
+  - github: "ionlights" 
+    role: "Co-Director"
+  - github: "waldmannly"
+    role: "Co-Director"
+
+meetings:
+  start_offset: 4  # how many weeks into the semester should we start?
+  primary:
+    wday: "Mon"  # what day of the week? (Mon, Tue, Wed, Thu, Fri, Sat, Sun)
+    time: "19:30"  # military time
+    room: "HEC 119"  # e.g. HEC 119
