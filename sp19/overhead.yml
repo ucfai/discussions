@@ -12,12 +12,12 @@
 coordinators:
   - github: "ionlights" 
     role: "Co-Director"
-  - github: "waldmannly"
+  - github: "Waldmannly"
     role: "Co-Director"
 
 meetings:
   start_offset: 4  # how many weeks into the semester should we start?
   primary:
     wday: "Mon"  # what day of the week? (Mon, Tue, Wed, Thu, Fri, Sat, Sun)
-    time: "19:30"  # military time
+    time: "19:30-21:30"  # military time
     room: "HEC 119"  # e.g. HEC 119

@@ -11,6 +11,7 @@
 primary:
 - name: "A Few Useful Things to Know about Machine Learning by Pedro Domingos"
   file: "useful-ml"
+  paper: "https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf"
   covr: ""
   tags: ["intro", "research", "uwash"]
   inst: ["Waldmannly", "ionlights"]
