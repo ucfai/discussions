@@ -16,13 +16,23 @@ primary:
   tags: ["intro", "research", "uwash"]
   inst: ["Waldmannly", "ionlights"]
   desc: >-
-    Abstract: Machine learning algorithms can figure out how to perform 
-    important tasks by generalizing from examples. This is often feasible and 
-    cost-effective where manual programming is not. As more data becomes 
-    available, more ambitious problems can be tackled. As a result, machine 
-    learning is widely used in computer science and other fields. However, 
+    Abstract: Machine learning algorithms can figure out how to perform
+    important tasks by generalizing from examples. This is often feasible and
+    cost-effective where manual programming is not. As more data becomes
+    available, more ambitious problems can be tackled. As a result, machine
+    learning is widely used in computer science and other fields. However,
     developing successful machine learning applications requires a substantial
     amount of "black art" that is hard to find in textbooks. This article
     summarizes twelve key lessons that machine learning researchers and
-    practitioners have learned. These include pitfalls to avoid, important 
+    practitioners have learned. These include pitfalls to avoid, important
     issues to focus on, and answers to common questions.
+
+- name: "Intro to Machine Learning Topics"
+  file: "Intro-to-ML-topics"
+  paper: "https://www.intechopen.com/books/new-advances-in-machine-learning/introduction-to-machine-learning"
+  covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
+  tags: ["intro", "research", "topics", "summary"]
+  inst: ["Waldmannly", "ionlights"]
+  desc: >-
+    Summary: This paper includes a breif introduction to and history of machine
+    learning as well as breif summarys of topics in the field.
