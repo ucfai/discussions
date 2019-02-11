@@ -28,7 +28,7 @@ primary:
     issues to focus on, and answers to common questions.
 
 - name: "Intro to Machine Learning Topics"
-  file: "Intro-to-ML-topics"
+  file: "intro-to-ml-topics"
   paper: "https://www.intechopen.com/books/new-advances-in-machine-learning/introduction-to-machine-learning"
   covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
   tags: ["intro", "research", "topics", "summary"]
