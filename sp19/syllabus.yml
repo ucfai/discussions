@@ -44,10 +44,10 @@ primary:
   tags: ["intro", "research", "deep-learning", "summary"]
   inst: ["Waldmannly", "ionlights"]
   desc: >-
-    Abstract: Deep learning allows computational models that are composed of
+    Abstract: Deep learning allows for computational models that are composed of
     multiple processing layers to learn representations of data with multiple
     levels of abstraction. These methods have dramatically improved the state-
-    of-the-art in speech rec-ognition, visual object recognition, object 
+    of-the-art in speech recognition, visual object recognition, object 
     detection and many other domains such as drug discovery and genomics. Deep
     learning discovers intricate structure in large data sets by using the
     backpropagation algorithm to indicate how a machine should change its
