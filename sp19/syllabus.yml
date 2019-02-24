@@ -55,4 +55,18 @@ primary:
     layer from the representation in the previous layer. Deep convolutional
     nets have brought about breakthroughs in processing images, video, speech
     and audio, whereas recurrent nets have shone light on sequential data such
-    as text and speech. 
+    as text and speech.
+
+- name: "Handwritten Digit Recognition with a Back-Propagation Network"
+  file: "first-cnns-backprop"
+  paper: "http://yann.lecun.com/exdb/publis/pdf/lecun-90c.pdf"
+  covr: "https://www.topbots.com/wp-content/uploads/2017/03/convnet_design_patterns_1600x700_web-1280x640.jpg"
+  tags: ["intro", "research", "deep-learning", "conv-nets"]
+  inst: ["Waldmannly", "ionlights"]
+  desc: >-
+    Abstract: We present an application of back-propagation networks to     
+    hand-written digit recognition. Minimal preprocessing of the data was
+    required, but architecture of the network was highly constrained and     
+    specifically designed for the task. The input of the network consists of  
+    nromalized images of isolated digits. The method has 1% error rate and
+    about a 9% reject rate on zipcode digits provided by the US Postal Service.
