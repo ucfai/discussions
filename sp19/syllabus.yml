@@ -47,7 +47,7 @@ primary:
     Abstract: Deep learning allows for computational models that are composed of
     multiple processing layers to learn representations of data with multiple
     levels of abstraction. These methods have dramatically improved the state-
-    of-the-art in speech recognition, visual object recognition, object 
+    of-the-art in speech recognition, visual object recognition, object
     detection and many other domains such as drug discovery and genomics. Deep
     learning discovers intricate structure in large data sets by using the
     backpropagation algorithm to indicate how a machine should change its
@@ -64,9 +64,22 @@ primary:
   tags: ["intro", "research", "deep-learning", "conv-nets"]
   inst: ["Waldmannly", "ionlights"]
   desc: >-
-    Abstract: We present an application of back-propagation networks to     
+    Abstract: We present an application of back-propagation networks to
     hand-written digit recognition. Minimal preprocessing of the data was
-    required, but architecture of the network was highly constrained and     
-    specifically designed for the task. The input of the network consists of  
+    required, but architecture of the network was highly constrained and
+    specifically designed for the task. The input of the network consists of
     nromalized images of isolated digits. The method has 1% error rate and
     about a 9% reject rate on zipcode digits provided by the US Postal Service.
+
+  - name: "CS294A Lecture notes: Sparse autoencoder"
+    file: "sparse-autoencoder"
+    paper: "https://web.stanford.edu/class/cs294a/sparseAutoencoder.pdf"
+    covr: "https://www.topbots.com/wp-content/uploads/2017/03/convnet_design_patterns_1600x700_web-1280x640.jpg"
+    tags: ["intro", "research", "learning", "sparese", "autoencoder", "review", "notes"]
+    inst: ["Waldmannly", "ionlights"]
+    desc: >-
+      Summary: These notes describe the sparse autoencoder learning algorithm, which
+      is one approach to automatically learn features from unlabeled data. In some
+      domains, such as computer vision, this approach is not by itself competitive
+      with the best hand-engineered features, but the features it can learn do turn
+      out to be useful for a range of problems (including ones in audio, text, etc).
