@@ -91,4 +91,46 @@ primary:
   tags: ["review", "research", "learning", "sequence", "rnn", "paper"]
   inst: ["Waldmannly", "ionlights"]
   desc: >-
-    Summary: Countless learning tasks require dealing with sequential data. Image captioning, speech synthesis, and music generation all require that a model produce outputs that are sequences. In other domains, such as time series prediction, video analysis, and musical information retrieval, a model must learn from inputs that are sequences. Interactive tasks, such as translating natural language, engaging in dialogue, and controlling a robot, often demand both capabilities. Recurrent neural networks (RNNs) are connectionist models that capture the dynamics of sequences via cycles in the network of nodes. Unlike standard feedforward neural networks, recurrent networks retain a state that can represent information from an arbitrarily long context window. Although recurrent neural networks have traditionally been difficult to train, and often contain millions of parameters, recent advances in network architectures, optimization techniques, and parallel computation have enabled successful large-scale learning with them. In recent years, systems based on long short-term memory (LSTM) and bidirectional (BRNN) architectures have demonstrated ground-breaking performance on tasks as varied as image captioning, language translation, and handwriting recognition. In this survey, we review and synthesize the research that over the past three decades first yielded and then made practical these powerful learning models. When appropriate, we reconcile conflicting notation and nomenclature. Our goal is to provide a selfcontained explication of the state of the art together with a historical perspective and references to primary research.
+    Summary: Countless learning tasks require dealing with sequential data. Image
+    captioning, speech synthesis, and music generation all require that a model 
+    produce outputs that are sequences. In other domains, such as time series
+    prediction, video analysis, and musical information retrieval, a model must
+    learn from inputs that are sequences. Interactive tasks, such as translating
+    natural language, engaging in dialogue, and controlling a robot, often demand
+    both capabilities. Recurrent neural networks (RNNs) are connectionist models
+    that capture the dynamics of sequences via cycles in the network of nodes.
+    Unlike standard feedforward neural networks, recurrent networks retain a state
+    that can represent information from an arbitrarily long context window. 
+    Although recurrent neural networks have traditionally been difficult to train,
+    and often contain millions of parameters, recent advances in network
+    architectures, optimization techniques, and parallel computation have enabled
+    successful large-scale learning with them. In recent years, systems based on
+    long short-term memory (LSTM) and bidirectional (BRNN) architectures have
+    demonstrated ground-breaking performance on tasks as varied as image
+    captioning, language translation, and handwriting recognition. In this survey,
+    we review and synthesize the research that over the past three decades first
+    yielded and then made practical these powerful learning models. When 
+    appropriate, we reconcile conflicting notation and nomenclature. Our goal is
+    to provide a selfcontained explication of the state of the art together with
+    a historical perspective and references to primary research.
+
+- name: "Deep Visual-Semantic Alignments for Generating Image Descriptions"
+  file: "image-description-generation
+  paper: "https://arxiv.org/pdf/1412.2306.pdf"
+  covr: "https://www.topbots.com/wp-content/uploads/2017/03/convnet_design_patterns_1600x700_web-1280x640.jpg"
+  tags: ["cnn", "captioning", "images", "stanford"]
+  inst: ["Waldmannly", "ionlights"]
+  desc: >-
+    Abstract: We present a model that generates natural language descriptions of
+    images and their regions. Our approach leverages datasets of images and their
+    sentence descriptions tolearn about the inter-modal correspondences between 
+    language and visual data. Our alignment model is based on a novel combination
+    of Convolutional Neural Networks over image regions, bidirectional Recurrent
+    Neural Networks over sentences, and a structured objective that aligns the 
+    two modalities through a multimodal embedding. We then describe a Multimodal
+    Recurrent Neural Network architecture that uses the inferred alignments to
+    learn to generate novel descriptions of image regions.  We demonstrate that 
+    our alignment model produces state of the art results in retrieval experiments
+    on Flickr8K, Flickr30K and MSCOCOdatasets. We then show that the generated
+    descriptions sig outperform retrieval baselines on both full images and on a
+    new dataset of region-level annotations.
