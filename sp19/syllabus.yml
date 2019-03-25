@@ -115,7 +115,7 @@ primary:
     a historical perspective and references to primary research.
 
 - name: "Deep Visual-Semantic Alignments for Generating Image Descriptions"
-  file: "image-description-generation
+  file: "image-description-generation"
   paper: "https://arxiv.org/pdf/1412.2306.pdf"
   covr: "https://www.topbots.com/wp-content/uploads/2017/03/convnet_design_patterns_1600x700_web-1280x640.jpg"
   tags: ["cnn", "captioning", "images", "stanford"]
