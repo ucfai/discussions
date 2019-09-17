@@ -1,0 +1,124 @@
+#: #############################################################################
+#: - name: "<full-lecture-title>" # In plain English
+#:   file: "<filename>" # should look something like... "deep-rl" for DeepRL.
+#                       # Avoid manually numbering. Should be concise and
+#:                      # descriptive of the topic being covered.
+#:   inst: [<instructor_1>, <instructor_2>, ...]
+#:   date: "<MM>/<DD>" [OPTIONAL, only needed for sporadic meetings]
+#:   desc: >- # the ">-" specifies to YAML its a multi-line string
+#:     <meeting-description>
+#: #############################################################################
+- name: "Welcome to the Intelligence Group!"
+  file: "welcome"
+  covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
+  tags: ["welcome", "deciding-on-research"]
+  inst: ["ionlights", "ahl98"]
+  desc: >-
+    Welcome to the Intelligence group! This meeting, we'll be discerning
+    everyone's research interests, whether passive or active. Following that,
+    we'll start narrowing paper topics to fill the 5 unplanned meetings so
+    everyone can begin getting a feel for the breadth of computation as a field
+    of research.
+
+- name: "A Few Userfing Things to Know about Machine Learning"
+  file: "useful-ml"
+  covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
+  tags: ["intro-paper"]
+  inst: ["ionlights", "ahl98"]
+  desc: >-
+    Machine learning algorithms can figure out how to perform important tasks by
+    generalizing from examples. This is often feasible and cost-effective where
+    manual programming is not. As more data becomes available, more ambitious
+    problems can be tackled. As a result, machine learning is widely used in
+    computer science and other fields. However, developing successful machine
+    learning applications requires a substantial amount of black art that is
+    hard to find in textbooks. This article summarizes twelve key lessons that
+    machine learning researchers and practitioners have learned. These include
+    pitfalls to avoid, important issues to focus on, and answers to common
+    questions.
+
+- name: "Placeholder (Paper decided on in 1st Meeting)"
+  file: "placeholder"
+  covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
+  tags: ["intro-paper"]
+  inst: ["ionlights", "ahl98"]
+  desc: >-
+
+- name: "Placeholder (Paper decided on in 1st Meeting)"
+  file: "placeholder"
+  covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
+  tags: ["intro-paper"]
+  inst: ["ionlights", "ahl98"]
+  desc: >-
+
+- name: "Placeholder (Paper decided on in 1st Meeting)"
+  file: "placeholder"
+  covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
+  tags: ["intro-paper"]
+  inst: ["ionlights", "ahl98"]
+  desc: >-
+
+- name: "Placeholder (Paper decided on in 1st Meeting)"
+  file: "placeholder"
+  covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
+  tags: ["intro-paper"]
+  inst: ["ionlights", "ahl98"]
+  desc: >-
+
+- name: "Placeholder (Paper decided on in 1st Meeting)"
+  file: "placeholder"
+  covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
+  tags: ["intro-paper"]
+  inst: ["ionlights", "ahl98"]
+  desc: >-
+
+- name: "Placeholder (Paper decided on in 1st Meeting)"
+  file: "placeholder"
+  covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
+  tags: ["intro-paper"]
+  inst: ["ionlights", "ahl98"]
+  desc: >-
+
+- name: "Building Machines That Learn and Think Like People"
+  file: "machines-learn-think-people"
+  covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
+  tags: ["long-paper"]
+  inst: ["ionlights", "ahl98"]
+  desc: >-
+    Recent progress in artificial intelligence (AI) has renewed interest in
+    building systems that learn and think like people. Many advances have
+    come from using deep neural networks trained end-to-end in tasks such as
+    object recognition, video games, and board games, achieving performance
+    that equals or even beats humans in some respects. Despite their
+    biological inspiration and performance achievements, these systems differ
+    from human intelligence in crucial ways. We review progress in cognitive
+    science suggesting that truly human-like learning and thinking machines
+    will have to reach beyond current engineering trends in both what they
+    learn, and how they learn it. Specifically, we argue that these machines
+    should (a) build causal models of the world that support explanation and
+    understanding, rather than merely solving pattern recognition problems;
+    (b) ground learning in intuitive theories of physics and psychology, to
+    support and enrich the knowledge that is learned; and (c) harness
+    compositionality and learning-to-learn to rapidly acquire and generalize
+    knowledge to new tasks and situations. We suggest concrete challenges and
+    promising routes towards these goals that can combine the strengths of
+    recent neural network advances with more structured cognitive models.
+
+- name: "Building Machines That Learn and Think For Themselves"
+  file: "machines-learn-think-themselves"
+  covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
+  tags: ["long-paper"]
+  inst: ["ionlights", "ahl98"]
+  desc: >-
+    We agree with Lake and colleagues on their list of key ingredients for
+    building humanlike intelligence, including the idea that model-based
+    reasoning is essential. However, we favor an approach that centers on one
+    additional ingredient: autonomy. In particular, we aim toward agents that
+    can both build and exploit their own internal models, with minimal human
+    hand-engineering. We believe an approach centered on autonomous learning
+    has the greatest chance of success as we scale toward real-world
+    complexity, tackling domains for which ready-made formal models are not
+    available. Here we survey several important examples of the progress that
+    has been made toward building autonomous agents with humanlike abilities,
+    and highlight some outstanding challenges.
+ 
