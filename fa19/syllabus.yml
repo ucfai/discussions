@@ -20,7 +20,7 @@
     everyone can begin getting a feel for the breadth of computation as a field
     of research.
 
-- name: "A Few Userfing Things to Know about Machine Learning"
+- name: "A Few Useful Things to Know about Machine Learning"
   file: "useful-ml"
   covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
   tags: ["intro-paper"]
