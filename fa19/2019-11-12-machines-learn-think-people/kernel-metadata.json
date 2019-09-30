@@ -1,0 +1,13 @@
+{
+    "id": "ucfaibot/intelligence-fa19-machines-learn-think-people",
+    "title": "intelligence-fa19-machines-learn-think-people",
+    "code_file": "2019-11-12-machines-learn-think-people.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": false,
+    "enable_gpu": true,
+    "enable_internet": true,
+    "dataset_sources": [],
+    "competition_sources": ["ucfai-intelligence-fa19-machines-learn-think-people"],
+    "kernel_sources": []
+}

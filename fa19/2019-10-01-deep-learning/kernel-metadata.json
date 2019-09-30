@@ -1,0 +1,13 @@
+{
+    "id": "ucfaibot/intelligence-fa19-deep-learning",
+    "title": "intelligence-fa19-deep-learning",
+    "code_file": "2019-10-01-deep-learning.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": false,
+    "enable_gpu": true,
+    "enable_internet": true,
+    "dataset_sources": [],
+    "competition_sources": ["ucfai-intelligence-fa19-deep-learning"],
+    "kernel_sources": []
+}

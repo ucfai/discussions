@@ -1,0 +1,13 @@
+{
+    "id": "ucfaibot/intelligence-fa19-useful-ml",
+    "title": "intelligence-fa19-useful-ml",
+    "code_file": "2019-09-24-useful-ml.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": false,
+    "enable_gpu": true,
+    "enable_internet": true,
+    "dataset_sources": [],
+    "competition_sources": ["ucfai-intelligence-fa19-useful-ml"],
+    "kernel_sources": []
+}
