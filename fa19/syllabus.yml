@@ -74,34 +74,48 @@
       kernels: []
 
 - required:
-    title: "Placeholder (Paper decided on in 1st Meeting)"
+    title: "Speech Recognition with Deep Recurrent Neural Networks"
     cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "placeholder"
+    filename: "deep-rnns"
     instructors: ["ionlights", "ahl98"]
     description: >-
+      Our first non-review paper of the semester will be on using Deep RNNs to perform
+      speech recognition tasks. This approach seeks to combine the advantages of deep
+      neural networks wtih the "flexible use of long-range context that empowers RNNs".
+      The abstract is rather lengthy, so I'll refrain from copying it here. Our weekly 
+      meeting on this paper will go over questions from the paper, strategies for reading 
+      more complex research papers, and how to identify strengths and weaknesses of journal 
+      articles.
 
   optional:
-    tags: ["intro-paper"]
+    tags: ["journal-paper", "rnn", "speech-recognition", "deep-learning", "nlp"]
     date: ""
     slides: ""
-    papers: []
+    papers: ["https://arxiv.org/pdf/1303.5778.pdf"]
     kaggle:
       datasets: []
       competitions: []
       kernels: []
 
 - required:
-    title: "Placeholder (Paper decided on in 1st Meeting)"
+    title: "Attention Is All You Need"
     cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "placeholder"
+    filename: "transformer"
     instructors: ["ionlights", "ahl98"]
     description: >-
+      This paper, published from work performed at Google Brain and Google Research,
+      proposes a new network architecture for tackling machine translation problems
+      (among other ML transduction problems). This new approach simplifies the classic
+      approach to translation while also achieving better performance. Accompanying the 
+      paper is a Jupyter notebook created at Harvard to add annotations to the original 
+      article while also supplying code mentioned in the work. This paper is most similar
+      to the kinds of articles you can expect to be reading when doing original research.
 
   optional:
-    tags: ["intro-paper"]
+    tags: ["journal-paper", "nlp", "deep-learning"]
     date: ""
     slides: ""
-    papers: []
+    papers: ["https://arxiv.org/pdf/1706.03762.pdf"]
     kaggle:
       datasets: []
       competitions: []
