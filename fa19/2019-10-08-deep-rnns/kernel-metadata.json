@@ -1,0 +1,13 @@
+{
+    "id": "ucfaibot/intelligence-fa19-deep-rnns",
+    "title": "intelligence-fa19-deep-rnns",
+    "code_file": "2019-10-08-deep-rnns.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": false,
+    "enable_gpu": true,
+    "enable_internet": true,
+    "dataset_sources": [],
+    "competition_sources": ["ucfai-intelligence-fa19-deep-rnns"],
+    "kernel_sources": []
+}

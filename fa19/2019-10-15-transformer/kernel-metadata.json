@@ -1,0 +1,13 @@
+{
+    "id": "ucfaibot/intelligence-fa19-transformer",
+    "title": "intelligence-fa19-transformer",
+    "code_file": "2019-10-15-transformer.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": false,
+    "enable_gpu": true,
+    "enable_internet": true,
+    "dataset_sources": [],
+    "competition_sources": ["ucfai-intelligence-fa19-transformer"],
+    "kernel_sources": []
+}
