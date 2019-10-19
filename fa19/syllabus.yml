@@ -122,7 +122,31 @@
       kernels: []
 
 - required:
-    title: "Placeholder (Paper decided on in 1st Meeting)"
+    title: "The Ethics of Accident-Algorithms for Self-Driving Cars: an Applied Trolley Problem?"
+    cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
+    filename: "ethics"
+    instructors: ["ionlights", "ahl98"]
+    description: >-
+        This week, we're shifting focus slightly to look at ethics within the field of 
+        artifical intelligence. Ethics are an important consideration for anyone 
+        interested in the field of AI. This particular paper focuses on one of the largest
+        debates in the current AI ethics field, accident algorithms in self-driving cars.
+        In the event a self-driving car realizes an accident is about to occur, what should
+        it do? What outcomes should be prioritized? The paper reviews the current viewpoints
+        on these questions.
+
+  optional:
+    tags: ["journal-paper", "ethics", "self-driving-cars"]
+    date: ""
+    slides: ""
+    papers: ["https://link.springer.com/content/pdf/10.1007%2Fs10677-016-9745-2.pdf"]
+    kaggle:
+      datasets: []
+      competitions: []
+      kernels: []
+
+- required:
+    title: "Undecided"
     cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
     filename: "placeholder"
     instructors: ["ionlights", "ahl98"]
@@ -139,24 +163,7 @@
       kernels: []
 
 - required:
-    title: "Placeholder (Paper decided on in 1st Meeting)"
-    cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "placeholder"
-    instructors: ["ionlights", "ahl98"]
-    description: >-
-
-  optional:
-    tags: ["intro-paper"]
-    date: ""
-    slides: ""
-    papers: []
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-
-- required:
-    title: "Placeholder (Paper decided on in 1st Meeting)"
+    title: "Undecided"
     cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
     filename: "placeholder"
     instructors: ["ionlights", "ahl98"]
