@@ -39,7 +39,9 @@
     tags: ["intro-paper"]
     date: ""
     slides: ""
-    papers: []
+    papers:
+      useful-ml-paper: https://www.derczynski.com/sheffield/papers/archive/useful_ml.pdf
+      useful-ml-article: https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf
     kaggle:
       datasets: []
       competitions: []
@@ -67,7 +69,8 @@
     tags: ["intro-paper", "review-paper", "deep-learning"]
     date: ""
     slides: ""
-    papers: []
+    papers:
+      deep-learning: https://www.researchgate.net/profile/Y_Bengio/publication/277411157_Deep_Learning/links/55e0cdf908ae2fac471ccf0f/Deep-Learning.pdf
     kaggle:
       datasets: []
       competitions: []
@@ -91,7 +94,8 @@
     tags: ["journal-paper", "rnn", "speech-recognition", "deep-learning", "nlp"]
     date: ""
     slides: ""
-    papers: ["https://arxiv.org/pdf/1303.5778.pdf"]
+    papers:
+      deep-rnns: https://arxiv.org/pdf/1303.5778.pdf
     kaggle:
       datasets: []
       competitions: []
@@ -115,7 +119,8 @@
     tags: ["journal-paper", "nlp", "deep-learning"]
     date: ""
     slides: ""
-    papers: ["https://arxiv.org/pdf/1706.03762.pdf"]
+    papers:
+      transformer: https://arxiv.org/pdf/1706.03762.pdf
     kaggle:
       datasets: []
       competitions: []
@@ -138,8 +143,40 @@
   optional:
     tags: ["journal-paper", "ethics", "self-driving-cars"]
     date: ""
+    room: "ENG1 186"
     slides: ""
-    papers: ["https://link.springer.com/content/pdf/10.1007%2Fs10677-016-9745-2.pdf"]
+    papers:
+      self-driving-car-ethics: https://link.springer.com/content/pdf/10.1007%2Fs10677-016-9745-2.pdf
+    kaggle:
+      datasets: []
+      competitions: []
+      kernels: []
+
+- required:
+    title: "How to Grow a Mind"
+    cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
+    filename: "grow-a-mind"
+    instructors: ["ionlights", "ahl98"]
+    description: >-
+      In coming to understand the world-in learning concepts, acquiring
+      language, and grasping causal relations-our minds make inferences
+      that appear to go far beyond the data available. How do we do it?
+      This review describes recent approaches to reverse-engineering human
+      learning and cognitive development and, in parallel, engineering more
+      humanlike machine learning systems. Computational models that perform
+      probabilistic inference over hierarchies of flexibly structured
+      representations can address some of the deepest questions about the nature
+      and origins of human thought: How does abstract knowledge guide learning
+      and reasoning from sparse data? What forms does our knowledge take, across
+      different domains and tasks? And how is that abstract knowledge itself
+      acquired?
+  optional:
+    tags: ["review-paper", "cognitive-science", "machine-learning", "abstraction"]
+    date: ""
+    room: "ENG1 186"
+    slides: ""
+    papers:
+      how-to-grow-a-mind: https://pdfs.semanticscholar.org/e7e4/bc08c9c746fda4721ac9e2206b4472e44b85.pdf
     kaggle:
       datasets: []
       competitions: []
@@ -155,23 +192,7 @@
   optional:
     tags: ["intro-paper"]
     date: ""
-    slides: ""
-    papers: []
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-
-- required:
-    title: "Undecided"
-    cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "placeholder"
-    instructors: ["ionlights", "ahl98"]
-    description: >-
-
-  optional:
-    tags: ["intro-paper"]
-    date: ""
+    room: "ENG1 186"
     slides: ""
     papers: []
     kaggle:
@@ -206,8 +227,10 @@
   optional:
     tags: ["long-paper"]
     date: ""
+    room: "ENG1 186"
     slides: ""
-    papers: []
+    papers:
+      machines-learn-think-people: https://arxiv.org/pdf/1604.00289.pdf
     kaggle:
       datasets: []
       competitions: []
@@ -234,8 +257,10 @@
   optional:
     tags: ["long-paper"]
     date: ""
+    room: "ENG1 186"
     slides: ""
-    papers: []
+    papers:
+      machines-learn-think-themselves: https://arxiv.org/pdf/1711.08378.pdf
     kaggle:
       datasets: []
       competitions: []
