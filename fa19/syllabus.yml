@@ -183,18 +183,30 @@
       kernels: []
 
 - required:
-    title: "Undecided"
+    title: "Experimental Investigation of Ant Traffic Under Crowded Conditions"
     cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "placeholder"
+    filename: "ants"
     instructors: ["ionlights", "ahl98"]
     description: >-
+        This week will be a short break from our NLP/CogSci papers. Ants are one of
+        the few creatures on the planet that engage in two-way traffic just like us.
+        By looking at how ants navigate their self-organized traffic systems, we can
+        learn how to better organize our own homologous systems (such as intersections,
+        roadways, etc.). This paper experimentally investigates the efficiency of ants 
+        navigating paths involving bidirectional movement, and found that ants are 
+        capable of a level of efficiency that is twice as high as humans' in equivalent
+        scenarios. What makes ants so much better than humans at traffic organization?
+        What can we learn from ants' organizational paradigms? Should ants be driving 
+        our cars instead of humans? These are some of the questions investigated in this
+        week's paper.
 
   optional:
-    tags: ["intro-paper"]
+    tags: ["article", "natural-computation", "ants", "natural-systems", "multi-agent-systems"]
     date: ""
     room: "ENG1 186"
     slides: ""
-    papers: []
+    papers: 
+        ants: https://elifesciences.org/download/aHR0cHM6Ly9jZG4uZWxpZmVzY2llbmNlcy5vcmcvYXJ0aWNsZXMvNDg5NDUvZWxpZmUtNDg5NDUtdjEucGRm/elife-48945-v1.pdf?_hash=wi3LerW7I4hHPLjDf%2B9QJVPOBxpEO0Snoluo6g%2BrWF0%3D
     kaggle:
       datasets: []
       competitions: []
