@@ -1,0 +1,19 @@
+directors:
+  - "" # fill in your github username
+
+
+coordinators:
+  - "" # fill in your github username
+
+
+office_hours:
+  - name: ""  # fill in your github username
+    time: ""
+    wday: ""
+
+
+meetings:
+  wday: "Tue"  # what day of the week? (Mon, Tue, Wed, Thu, Fri, Sat, Sun)
+  time: "1800-2000"  # military time (e.g. 1800-2000)
+  room: "BIO 209"  # e.g. HEC 119
+  start_offset: 2  # what week of the semester should we start? (0-indexed)
