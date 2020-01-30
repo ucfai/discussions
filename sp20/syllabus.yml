@@ -1,6 +1,6 @@
 meeting00:
   required:
-    title: ''
+    title: 'Survey on Hate Speech Detection using Natural Language Processing'
     cover: ''
     filename: ''
     instructors: []
@@ -9,7 +9,7 @@ meeting00:
     date: '2020-01-21T18:00:00'
     room: BIO 209
     tags: []
-    papers: null
+    papers: HateSpeechDetection: https://www.aclweb.org/anthology/W17-1101/
     urls:
       slides: ''
       youtube: ''
@@ -20,7 +20,7 @@ meeting00:
       enable_gpu: false
 meeting01:
   required:
-    title: ''
+    title: 'Identifying Right Whales in Photos using Deep Learning'
     cover: ''
     filename: ''
     instructors: []
@@ -29,7 +29,7 @@ meeting01:
     date: '2020-01-28T18:00:00'
     room: BIO 209
     tags: []
-    papers: null
+    papers: RightWhaleID: https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/cobi.13226
     urls:
       slides: ''
       youtube: ''
@@ -40,7 +40,7 @@ meeting01:
       enable_gpu: false
 meeting02:
   required:
-    title: ''
+    title: 'Reinforcement Learning to Learn How to Play FPS Games'
     cover: ''
     filename: ''
     instructors: []
@@ -49,7 +49,7 @@ meeting02:
     date: '2020-02-04T18:00:00'
     room: BIO 209
     tags: []
-    papers: null
+    papers: RLfps: https://arxiv.org/abs/1806.05117v1
     urls:
       slides: ''
       youtube: ''
