@@ -9,7 +9,8 @@ meeting00:
     date: '2020-01-21T18:00:00'
     room: BIO 209
     tags: []
-    papers: HateSpeechDetection: https://www.aclweb.org/anthology/W17-1101/
+    papers:
+      HateSpeechDetection: https://www.aclweb.org/anthology/W17-1101.pdf
     urls:
       slides: ''
       youtube: ''
@@ -29,7 +30,8 @@ meeting01:
     date: '2020-01-28T18:00:00'
     room: BIO 209
     tags: []
-    papers: RightWhaleID: https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/cobi.13226
+    papers:
+      RightWhaleID: https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/cobi.13226
     urls:
       slides: ''
       youtube: ''
@@ -49,7 +51,8 @@ meeting02:
     date: '2020-02-04T18:00:00'
     room: BIO 209
     tags: []
-    papers: RLfps: https://arxiv.org/abs/1806.05117v1
+    papers:
+      RLfps: https://arxiv.org/pdf/1806.05117.pdf
     urls:
       slides: ''
       youtube: ''
