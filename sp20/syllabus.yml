@@ -72,7 +72,8 @@ meeting03:
     date: '2020-02-11T18:00:00'
     room: BIO 209
     tags: []
-    papers: https://science.sciencemag.org/content/sci/332/6033/1054.full.pdf
+    papers: 
+     12yoreasoning: https://science.sciencemag.org/content/sci/332/6033/1054.full.pdf
     urls:
       slides: ''
       youtube: ''
