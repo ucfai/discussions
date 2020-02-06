@@ -63,7 +63,7 @@ meeting02:
       enable_gpu: false
 meeting03:
   required:
-    title: ''
+    title: 'Pure Reasoning in 12-Month-Old Infants as Probabilistic Inference'
     cover: ''
     filename: ''
     instructors: []
@@ -72,7 +72,7 @@ meeting03:
     date: '2020-02-11T18:00:00'
     room: BIO 209
     tags: []
-    papers: null
+    papers: https://science.sciencemag.org/content/sci/332/6033/1054.full.pdf
     urls:
       slides: ''
       youtube: ''
