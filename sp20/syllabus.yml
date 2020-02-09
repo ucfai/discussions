@@ -1,10 +1,30 @@
+#: #############################################################################
+#: required:
+#:   title: "<full-lecture-title>"
+#:   cover: <link_to_picture>  #image related to the paper. Should be as close to 540x1080+ as possible
+#:   file: "short-word-to-describe-with-no-spaces" #ex. "neural-networks"
+#:   instructors: [<instructor_1>, <instructor_2>, ...] #include in quotes, e.g. ["ghuser1", "ghuser2"]
+#:   description: >-      # the ">-" specifies to YAML its a multi-line string. 
+#:     <meeting-description>
+#:                        #empty line after description to end multi-line string
+#: optional:
+#:    papers:
+#:      PaperName: <link_to_download_paper>
+#: #############################################################################
+
 meeting00:
   required:
     title: 'Survey on Hate Speech Detection using Natural Language Processing'
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
+    cover: 'https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg'
+    filename: 'hate-speech-detection'
+    instructors: ["ahl98"]
+    description: >-
+        For our first paper in intelligence, we'll be covering how to detect
+        hate speech using machine learning algorithms. This is a super interesting
+        topic, because hate speech is often hard to define and depends a lot
+        on the context surrounding it. This review paper will cover current
+        state-of-the-art approaches for this problem.
+    
   optional:
     date: '2020-01-21T18:00:00'
     room: BIO 209
@@ -63,16 +83,23 @@ meeting02:
       enable_gpu: false
 meeting03:
   required:
-    title: ''
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
+    title: 'Pure Reasoning in 12-Month-Old Infants as Probabilistic Inference'
+    cover: 'https://www.irishtimes.com/polopoly_fs/1.3705835.1542894499!/image/image.jpg_gen/derivatives/box_620_330/image.jpg'
+    filename: '12mo-reasoning'
+    instructors: ["taramenon"]
+    description: >-
+    Many organisms can predict future events from the statistics of past experience, 
+    but humans also excel at making predictions by pure reasoning-- integrating multiple 
+    sources of information, guided by abstract knowledge, to form rational expectations
+    about novel situations, never directly experienced. Here, we show that this reasoning
+    is surprisingly rich, powerful, and coherent even in preverbal infants. 
+    
   optional:
     date: '2020-02-11T18:00:00'
     room: BIO 209
     tags: []
-    papers: null
+    papers: 
+     12moreasoning: https://science.sciencemag.org/content/sci/332/6033/1054.full.pdf
     urls:
       slides: ''
       youtube: ''
