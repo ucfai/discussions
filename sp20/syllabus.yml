@@ -84,16 +84,22 @@ meeting02:
 meeting03:
   required:
     title: 'Pure Reasoning in 12-Month-Old Infants as Probabilistic Inference'
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
+    cover: 'https://www.irishtimes.com/polopoly_fs/1.3705835.1542894499!/image/image.jpg_gen/derivatives/box_620_330/image.jpg'
+    filename: '12mo-reasoning'
+    instructors: ["taramenon"]
+    description: >-
+    Many organisms can predict future events from the statistics of past experience, 
+    but humans also excel at making predictions by pure reasoning-- integrating multiple 
+    sources of information, guided by abstract knowledge, to form rational expectations
+    about novel situations, never directly experienced. Here, we show that this reasoning
+    is surprisingly rich, powerful, and coherent even in preverbal infants. 
+    
   optional:
     date: '2020-02-11T18:00:00'
     room: BIO 209
     tags: []
     papers: 
-     12yoreasoning: https://science.sciencemag.org/content/sci/332/6033/1054.full.pdf
+     12moreasoning: https://science.sciencemag.org/content/sci/332/6033/1054.full.pdf
     urls:
       slides: ''
       youtube: ''
