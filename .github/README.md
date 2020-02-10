@@ -1,2 +1,2 @@
 # intelligence
-SIGAI@UCF's [Science of] Intelligence Group (IG)
+AI@UCF's Weekly Paper Discussion group! 
