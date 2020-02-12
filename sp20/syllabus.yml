@@ -116,13 +116,14 @@ meeting04:
     instructors: ["paullunis"]
     description: >-
     The ability to perform a detailed decision-making approach based on 
-	  large quantities of parameters and data is at the core of the majority
-	  of sciences. Traditionally, all possible scenarios should be considered,
-	  and their outcomes assessed via a logical and systematic manner to obtain
-	  accurate and applicable methods for knowledge discovery. However, such 
-	  approach is typically associated with high computational complexity. In this article
-	  we discuss some requirements of artificial intuition and present a model of 
-	  artificial intuition that utilises semantic networks to improve a decision system.
+    large quantities of parameters and data is at the core of the majority
+    of sciences. Traditionally, all possible scenarios should be considered,
+    and their outcomes assessed via a logical and systematic manner to obtain
+    accurate and applicable methods for knowledge discovery. However, such 
+    approach is typically associated with high computational complexity. In this article
+    we discuss some requirements of artificial intuition and present a model of 
+    artificial intuition that utilises semantic networks to improve a decision system.
+    
   optional:
     date: '2020-02-18T18:00:00'
     room: BIO 209
