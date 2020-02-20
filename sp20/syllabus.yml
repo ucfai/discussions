@@ -140,16 +140,20 @@ meeting04:
       enable_gpu: false
 meeting05:
   required:
-    title: ''
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
+    title: 'The Attitude of Therapists and Physicians on the Use of Sex Robots in Sexual Therapy'
+    cover: 'https://www.hivery.com/wp-content/uploads/2018/05/Mixed-Reality-and-Artificial-Intelligence-1080x540.jpg'
+    filename: 'Ethics-of-Sex-Robots'
+    instructors: ["DillonNotDylan"]
+    description: >-
+    The aim of this study was to conduct a first exploratory survey on the attitude of sex 
+    therapists and physicians towards the therapudic benefits of sex robots.
+    
   optional:
     date: '2020-02-25T18:00:00'
     room: BIO 209
     tags: []
-    papers: null
+    papers:
+      GoogleScholarLink: 'https://www.jmir.org/2019/8/e13853/'
     urls:
       slides: ''
       youtube: ''
