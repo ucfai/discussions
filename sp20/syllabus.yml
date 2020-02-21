@@ -145,8 +145,11 @@ meeting05:
     filename: 'Ethics-of-Sex-Robots'
     instructors: ["DillonNotDylan"]
     description: >-
-    The aim of this study was to conduct a first exploratory survey on the attitude of sex 
-    therapists and physicians towards the therapudic benefits of sex robots.
+    Piggybacking off our ethics discussion in this week's GBM, we'll be focusing on the ethical considerations
+    surrounding use of artificial intelligence in theraputic applications, specificially with respect to aiding
+    current state of the art approaches to therapy. Much of the paper discusses surveys and statistics of physicians
+    and their attitudes towards technology, and our discussion will extend this to address the ethical backdrop for 
+    the topics mentioned.
     
   optional:
     date: '2020-02-25T18:00:00'
