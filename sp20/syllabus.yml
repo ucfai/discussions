@@ -156,7 +156,7 @@ meeting05:
     room: BIO 209
     tags: []
     papers:
-      GoogleScholarLink: 'https://www.jmir.org/2019/8/e13853/'
+      ethicsRobots: https://www.jmir.org/2019/8/e13853/
     urls:
       slides: ''
       youtube: ''
@@ -167,16 +167,22 @@ meeting05:
       enable_gpu: false
 meeting06:
   required:
-    title: ''
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
+    title: 'A Deep Learning Architecture for Psychometric Natural Language Processing'
+    cover: 'https://eohhighveld.co.za/wp-content/uploads/2016/09/communicate-business-concept.jpg'
+    filename: 'PsychoDeepLearning'
+    instructors: ['ahl98']
+    description: >-
+      This week's paper will investigate a new approach for analyzing psychometric qualities from
+      text. Psychometrics, such as emotions or personality traits, are often subconsciously conveyed
+      through the manner in which people communicate. The authors of the paper propose a new method 
+      for analyzing psychometric qualities of authors using a modification of other previously developed
+      architectures for natural language processing and analysis.
   optional:
     date: '2020-03-03T18:00:00'
     room: BIO 209
     tags: []
-    papers: null
+    papers:
+      psychoNLP: https://dl.acm.org/doi/pdf/10.1145/3365211?download=true
     urls:
       slides: ''
       youtube: ''
