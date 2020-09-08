@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+    <title>Towards a Computational Model of Artificial Intuition and Decision Making</title>
+    <noscript>
+        <meta http-equiv="refresh" content="0;url=//link.springer.com/content/pdf/10.1007/978-3-030-29035-1_45.pdf">
+    </noscript>
+
+    <meta name="DOI" content="10.1007/978-3-030-29035-1_45">
+
+    <meta name="PDF_URL" content="//link.springer.com/content/pdf/10.1007/978-3-030-29035-1_45.pdf">
+
+    <script type="text/javascript" src="//content.readcube.com/springer/epdf.js"></script>
+
+    <script>
+        window.readcube_access_result = { "result": false, "resource": "10.1007/978-3-030-29035-1_45", "timestamp": 1599425021000,  }
+
+        setTimeout(function() {
+            if (window.readcube) return;
+            var metas = document.getElementsByTagName('meta');
+            for (i = 0; i < metas.length; i++) {
+                if (metas[i].getAttribute('name') == 'PDF_URL') {
+                    location.href = metas[i].getAttribute('content');
+                    break;
+                }
+            }
+        }, 10e3);
+    </script>
+
+    <link rel="shortcut icon" href="/springerlink-static/1781331718/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 48x48" href="/springerlink-static/1781331718/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16" type="image/png" href="/springerlink-static/1781331718/images/favicon/favicon-16x16.png">
+<link rel="icon" sizes="32x32" type="image/png" href="/springerlink-static/1781331718/images/favicon/favicon-32x32.png">
+<link rel="icon" sizes="48x48" type="image/png" href="/springerlink-static/1781331718/images/favicon/favicon-48x48.png">
+<link rel="apple-touch-icon" href="/springerlink-static/1781331718/images/favicon/app-icon-iphone@3x.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/springerlink-static/1781331718/images/favicon/ic_launcher_hdpi.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/springerlink-static/1781331718/images/favicon/app-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/springerlink-static/1781331718/images/favicon/app-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/springerlink-static/1781331718/images/favicon/app-icon-iphone@2x.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/springerlink-static/1781331718/images/favicon/ic_launcher_xxhdpi.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/springerlink-static/1781331718/images/favicon/app-icon-ipad@2x.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/springerlink-static/1781331718/images/favicon/app-icon-iphone@3x.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/springerlink-static/1781331718/images/favicon/ic_launcher_xxhdpi.png">
+    <link rel="stylesheet" href="/springerlink-static/1781331718/css/basic.css" media="screen">
+<link rel="stylesheet" href="/springerlink-static/1781331718/css/styles.css" class="js-ctm" media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+<link rel="stylesheet" href="/springerlink-static/1781331718/css/print.css" media="print">
+
+
+
+
+        <script type="text/javascript">
+        window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+        var dataLayer = [{
+                'GA Key':"UA-26408784-1",
+                'content':{"serial":{"eissn":"2194-5365","pissn":"2194-5357"},"book":{"seriesTitle":"Advances in Intelligent Systems and Computing","eisbn":"978-3-030-29035-1","pisbn":"978-3-030-29034-4","bookProductType":"Proceedings","seriesId":"11156","title":"Advances in Intelligent Networking and Collaborative Systems","doi":"10.1007/978-3-030-29035-1"},"attributes":{"deliveryPlatform":"bunsen"},"chapter":{"doi":"10.1007/978-3-030-29035-1_45"},"category":{"pmc":{"primarySubject":"Engineering","primarySubjectCode":"T","secondarySubjects":{"1":"Data Engineering","2":"Computational Intelligence","3":"Information Systems Applications (incl. Internet)"},"secondarySubjectCodes":{"1":"T11040","2":"T11014","3":"I18040"}},"sucode":"SUCO11647"},"type":"ConferencePaper"},
+
+
+        }];
+    </script>
+
+<script type="text/javascript" src="/springerlink-static/1781331718/js/jquery-3.3.1.min.js"></script>
+
+        <script type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+<script type="text/javascript">
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WCF9Z9');</script>
+
+</head>
+<body>
+    <script type="text/javascript">
+    (function() {
+        var linkEl = document.querySelector('.js-ctm');
+        var scriptsList = [];
+        var polyfillFeatures = '';
+
+        window.SpringerLink = window.SpringerLink || {};
+        window.SpringerLink.staticLocation = '/springerlink-static/1781331718';
+        window.eventTrackerInstance = null;
+
+        if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+            (function(h){h.className = h.className.replace('no-js', 'js')})(document.documentElement);
+
+            polyfillFeatures = 'default,fetch,Promise,Object.setPrototypeOf,Object.entries,Number.isInteger,MutationObserver,startsWith,Array.prototype.includes,Array.from,IntersectionObserver';
+
+            scriptsList = [
+                'https://cdn.polyfill.io/v2/polyfill.min.js?features=' + polyfillFeatures + '&flags=gated',
+                window.SpringerLink.staticLocation + '/js/main.js'
+            ];
+
+            scriptsList.forEach(function(script) {
+                var tag = document.createElement('script');
+                tag.async = false;
+                tag.src = script;
+
+                document.body.appendChild(tag);
+            });
+        }
+    })();
+</script>
+
+
+
+
+
+</body>
+</html>
