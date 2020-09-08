@@ -1,292 +1,131 @@
-#: #############################################################################
-#: required:
-#:   title: "<full-lecture-title>"
-#:   cover: <link_to_picture>  #image related to the paper. Should be as close to 540x1080+ as possible
-#:   file: "short-word-to-describe-with-no-spaces" #ex. "neural-networks"
-#:   instructors: [<instructor_1>, <instructor_2>, ...] #include in quotes, e.g. ["ghuser1", "ghuser2"]
-#:   description: >-      # the ">-" specifies to YAML its a multi-line string. 
-#:     <meeting-description>
-#:                        #empty line after description to end multi-line string
-#: optional:
-#:    papers:
-#:      PaperName: <link_to_download_paper>
-#: #############################################################################
-
-meeting00:
+- !Meeting
   required:
-    title: 'Survey on Hate Speech Detection using Natural Language Processing'
-    cover: 'https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg'
-    filename: 'hate-speech-detection'
-    instructors: ["ahl98"]
-    description: >-
-        For our first paper in intelligence, we'll be covering how to detect
-        hate speech using machine learning algorithms. This is a super interesting
-        topic, because hate speech is often hard to define and depends a lot
-        on the context surrounding it. This review paper will cover current
-        state-of-the-art approaches for this problem.
-    
-  optional:
-    date: '2020-01-21T18:00:00'
+    id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
+    date: !Timestamp 2020-01-21 18:00:00
+    title: Survey on Hate Speech Detection using Natural Language Processing
+    authors: [ahl98]
+    filename: hate-speech-detection
+    cover-image: https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg
+    tags: [hate speech detection, nlp, survey paper]
     room: BIO 209
-    tags: []
+    abstract: >-
+      For our first paper in intelligence, we'll be covering how to detect hate speech
+      using machine learning algorithms. This is a super interesting topic, because
+      hate speech is often hard to define and depends a lot on the context surrounding
+      it. This review paper will cover current state-of-the-art approaches for this
+      problem.
+  optional:  # All `optional` keys are enumerated in the Documentation
     papers:
-      HateSpeechDetection: https://www.aclweb.org/anthology/W17-1101.pdf
-    urls:
-      slides: ''
-      youtube: ''
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-      enable_gpu: false
-meeting01:
+      hate-speech-detection: https://www.aclweb.org/anthology/W17-1101.pdf
+- !Meeting
   required:
-    title: 'Identifying Right Whales in Photos using Deep Learning'
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
-  optional:
-    date: '2020-01-28T18:00:00'
-    room: BIO 209
+    id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
+    date: !Timestamp 2020-01-28 18:00:00
+    title: Identifying Right Whales in Photos using Deep Learning
+    authors: [ahl98, hevia]
+    filename: right-whale-id
+    cover-image: ''
     tags: []
+    room: BIO 209
+    abstract: >-
+      We will be discussing the use of Computer Vision to identify and differentiate between right whales in satellite photos! We'll also be talking about different approaches and things to keep in mind when approaching research papers.
+  optional:  # All `optional` keys are enumerated in the Documentation
     papers:
-      RightWhaleID: https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/cobi.13226
-    urls:
-      slides: ''
-      youtube: ''
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-      enable_gpu: false
-meeting02:
+      right-whale-id: https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/cobi.13226
+- !Meeting
   required:
-    title: 'Reinforcement Learning to Learn How to Play FPS Games'
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
-  optional:
-    date: '2020-02-04T18:00:00'
-    room: BIO 209
+    id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
+    date: !Timestamp 2020-02-04 18:00:00
+    title: Reinforcement Learning to Learn How to Play FPS Games
+    authors: [hevia]
+    filename: rl-playing-fps
+    cover-image: ''
     tags: []
+    room: BIO 209
+    abstract: >-
+      We're filling this out!
+  optional:  # All `optional` keys are enumerated in the Documentation
     papers:
-      RLfps: https://arxiv.org/pdf/1806.05117.pdf
-    urls:
-      slides: ''
-      youtube: ''
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-      enable_gpu: false
-meeting03:
+      rl-fps: https://arxiv.org/pdf/1806.05117.pdf
+- !Meeting
   required:
-    title: 'Pure Reasoning in 12-Month-Old Infants as Probabilistic Inference'
-    cover: 'https://www.irishtimes.com/polopoly_fs/1.3705835.1542894499!/image/image.jpg_gen/derivatives/box_620_330/image.jpg'
-    filename: '12mo-reasoning'
-    instructors: ["taramenon"]
-    description: >-
-    Many organisms can predict future events from the statistics of past experience, 
-    but humans also excel at making predictions by pure reasoning-- integrating multiple 
-    sources of information, guided by abstract knowledge, to form rational expectations
-    about novel situations, never directly experienced. Here, we show that this reasoning
-    is surprisingly rich, powerful, and coherent even in preverbal infants. 
-    
-  optional:
-    date: '2020-02-11T18:00:00'
-    room: BIO 209
+    id: f29fd30d995b70644cc34d151e5547f7da5c92fd1c1fb501ffd9fdfc4f0e3c04
+    date: !Timestamp 2020-02-11 18:00:00
+    title: Pure Reasoning in 12-Month-Old Infants as Probabilistic Inference
+    authors: [taramenon]
+    filename: reasoning-in-12mo
+    cover-image: https://www.irishtimes.com/polopoly_fs/1.3705835.1542894499!/image/image.jpg_gen/derivatives/box_620_330/image.jpg
     tags: []
-    papers: 
-     12moreasoning: https://science.sciencemag.org/content/sci/332/6033/1054.full.pdf
-    urls:
-      slides: ''
-      youtube: ''
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-      enable_gpu: false
-meeting04:
-  required:
-    title: 'Towards a Computational Model of Artificial Intuition and Decision Making' 
-    cover: 'https://martechtoday.com/wp-content/uploads/2018/08/AI1920_c3k04a.png'
-    filename: 'artificial-intuition'
-    instructors: ["paullunis"]
-    description: >-
-    The ability to perform a detailed decision-making approach based on 
-    large quantities of parameters and data is at the core of the majority
-    of sciences. Traditionally, all possible scenarios should be considered,
-    and their outcomes assessed via a logical and systematic manner to obtain
-    accurate and applicable methods for knowledge discovery. However, such 
-    approach is typically associated with high computational complexity. In this article
-    we discuss some requirements of artificial intuition and present a model of 
-    artificial intuition that utilises semantic networks to improve a decision system.
-    
-  optional:
-    date: '2020-02-18T18:00:00'
     room: BIO 209
-    tags: []
+    abstract: >-
+      Many organisms can predict future events from the statistics of past experience,  but
+      humans also excel at making predictions by pure reasoning-- integrating multiple  sources
+      of information, guided by abstract knowledge, to form rational expectations
+      about novel situations, never directly experienced. Here, we show that this
+      reasoning is surprisingly rich, powerful, and coherent even in preverbal infants.
+  optional:  # All `optional` keys are enumerated in the Documentation
     papers:
-     artificialintuition: https://link.springer.com/chapter/10.1007%2F978-3-030-29035-1_45
-    urls:
-      slides: ''
-      youtube: ''
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-      enable_gpu: false
-meeting05:
+      reasoning-in-12mo: https://science.sciencemag.org/content/sci/332/6033/1054.full.pdf
+- !Meeting
   required:
-    title: 'The Attitude of Therapists and Physicians on the Use of Sex Robots in Sexual Therapy'
-    cover: 'https://www.hivery.com/wp-content/uploads/2018/05/Mixed-Reality-and-Artificial-Intelligence-1080x540.jpg'
-    filename: 'Ethics-of-Sex-Robots'
-    instructors: ["DillonNotDylan"]
-    description: >-
-    Piggybacking off our ethics discussion in this week's GBM, we'll be focusing on the ethical considerations
-    surrounding use of artificial intelligence in therapeutic applications, specificially with respect to aiding
-    current state of the art approaches to therapy. Much of the paper discusses surveys and statistics of physicians
-    and their attitudes towards technology, and our discussion will extend this to address the ethical backdrop for 
-    the topics mentioned.
-  optional:
-    date: '2020-02-25T18:00:00'
-    room: BIO 209
+    id: 02bd0d1ba8b748d9358b7d92e4026786f78890833071c2067ae912aa2a3d00fe
+    date: !Timestamp 2020-02-18 18:00:00
+    title: Towards a Computational Model of Artificial Intuition and Decision Making
+    authors: [paullunis]
+    filename: artificial-intuition
+    cover-image: https://martechtoday.com/wp-content/uploads/2018/08/AI1920_c3k04a.png
     tags: []
+    room: BIO 209
+    abstract: >-
+      The ability to perform a detailed decision-making approach based on  large quantities
+      of parameters and data is at the core of the majority of sciences. Traditionally,
+      all possible scenarios should be considered, and their outcomes assessed via
+      a logical and systematic manner to obtain accurate and applicable methods for
+      knowledge discovery. However, such  approach is typically associated with high
+      computational complexity. In this article we discuss some requirements of artificial
+      intuition and present a model of  artificial intuition that utilises semantic
+      networks to improve a decision system.
+  optional:  # All `optional` keys are enumerated in the Documentation
     papers:
-      ethicsRobots: https://www.jmir.org/2019/8/e13853/
-    urls:
-      slides: ''
-      youtube: ''
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-      enable_gpu: false
-meeting06:
+      artificial-intuition: https://rdcu.be/b6QGF
+- !Meeting
   required:
-    title: 'A Deep Learning Architecture for Psychometric Natural Language Processing'
-    cover: 'https://eohhighveld.co.za/wp-content/uploads/2016/09/communicate-business-concept.jpg'
-    filename: 'PsychoDeepLearning'
-    instructors: ['ahl98']
-    description: >-
-      This week's paper will investigate a new approach for analyzing psychometric qualities from
-      text. Psychometrics, such as emotions or personality traits, are often subconsciously conveyed
-      through the manner in which people communicate. The authors of the paper propose a new method 
-      for analyzing psychometric qualities of authors using a modification of other previously developed
-      architectures for natural language processing and analysis.
-  optional:
-    date: '2020-03-03T18:00:00'
-    room: BIO 209
+    id: 1367f61cfe397e862d1c2465bdf4cbea5298c37c980328a36c43556e356119b7
+    date: !Timestamp 2020-02-25 18:00:00
+    title: The Attitude of Therapists and Physicians on the Use of Sex Robots in Sexual
+      Therapy
+    authors: [dillonnotdylan]
+    filename: sex-robots-ethics
+    cover-image: https://www.hivery.com/wp-content/uploads/2018/05/Mixed-Reality-and-Artificial-Intelligence-1080x540.jpg
     tags: []
+    room: BIO 209
+    abstract: >-
+      Piggybacking off our ethics discussion in this week's GBM, we'll be focusing
+      on the ethical considerations surrounding use of artificial intelligence in
+      therapeutic applications, specificially with respect to aiding current state
+      of the art approaches to therapy. Much of the paper discusses surveys and statistics
+      of physicians and their attitudes towards technology, and our discussion will
+      extend this to address the ethical backdrop for  the topics mentioned.
+  optional:  # All `optional` keys are enumerated in the Documentation
     papers:
-      psychoNLP: https://dl.acm.org/doi/pdf/10.1145/3365211?download=true
-    urls:
-      slides: ''
-      youtube: ''
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-      enable_gpu: false
-meeting07:
+      sex-robot-ethics: https://www.jmir.org/2019/8/e13853/pdf
+- !Meeting
   required:
-    title: ''
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
-  optional:
-    date: '2020-03-17T18:00:00'
-    room: BIO 209
+    id: 3e589fcdc955f69df131662e4428e5ba2a97cd1e6c2efe62037de2ee3b950bca
+    date: !Timestamp 2020-03-03 18:00:00
+    title: A Deep Learning Architecture for Psychometric Natural Language Processing
+    authors: [ahl98]
+    filename: psycho-deep-learning
+    cover-image: https://eohhighveld.co.za/wp-content/uploads/2016/09/communicate-business-concept.jpg
     tags: []
-    papers: null
-    urls:
-      slides: ''
-      youtube: ''
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-      enable_gpu: false
-meeting08:
-  required:
-    title: ''
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
-  optional:
-    date: '2020-03-24T18:00:00'
     room: BIO 209
-    tags: []
-    papers: null
-    urls:
-      slides: ''
-      youtube: ''
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-      enable_gpu: false
-meeting09:
-  required:
-    title: ''
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
-  optional:
-    date: '2020-03-31T18:00:00'
-    room: BIO 209
-    tags: []
-    papers: null
-    urls:
-      slides: ''
-      youtube: ''
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-      enable_gpu: false
-meeting10:
-  required:
-    title: ''
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
-  optional:
-    date: '2020-04-07T18:00:00'
-    room: BIO 209
-    tags: []
-    papers: null
-    urls:
-      slides: ''
-      youtube: ''
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-      enable_gpu: false
-meeting11:
-  required:
-    title: ''
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
-  optional:
-    date: '2020-04-14T18:00:00'
-    room: BIO 209
-    tags: []
-    papers: null
-    urls:
-      slides: ''
-      youtube: ''
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-      enable_gpu: false
+    abstract: >-
+      This week's paper will investigate a new approach for analyzing psychometric
+      qualities from text. Psychometrics, such as emotions or personality traits,
+      are often subconsciously conveyed through the manner in which people communicate.
+      The authors of the paper propose a new method  for analyzing psychometric qualities
+      of authors using a modification of other previously developed architectures
+      for natural language processing and analysis.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    papers:
+      psycho-nlp: https://dl.acm.org/doi/pdf/10.1145/3365211

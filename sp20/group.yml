@@ -1,0 +1,17 @@
+!Group
+required:
+  name: discussions
+  room: 'BIO 209'
+  semester: sp20
+  startdate: !Timestamp 2020-01-21 18:00:00
+  frequency: 1
+  directors: [ahl98, ]
+  coordinators: [taramenon, paullunis, hevia, dillonnotdylan, ]
+  guests: []
+  advisors: []
+  summary: >
+
+optional:
+  use-kaggle: false
+  use-notebooks: false
+  use-papers: true
