@@ -1,12 +1,17 @@
 !Group
-name: discussions
-room: 'Online'
-semester: fa20
-startdate: !Timestamp 2020-09-15 18:00:00
-frequency: 2
-directors: ["PaulLunis"]
-coordinators: ["DillonNotDylan", "irene-l-tanner", "h3rmi0n3","Hevia"]
-guests: []
-push_kaggle: false
-needs_notebooks: false
-pull_papers: true
+required:
+  name: discussions
+  room: 'Online'
+  semester: fa20
+  startdate: !Timestamp 2020-09-15 18:00:00
+  frequency: 2
+  directors: ["PaulLunis"]
+  coordinators: ["DillonNotDylan", "irene-l-tanner", "h3rmi0n3","Hevia"]
+  guests: []
+  advisors: []
+  summary: >
+
+optional:
+  use-kaggle: false
+  use-notebooks: false
+  use-papers: true
