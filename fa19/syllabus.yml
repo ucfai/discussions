@@ -1,30 +1,31 @@
-- required:
-    title: "Welcome to the Intelligence Group!"
-    cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "welcome"
-    instructors: ["ionlights", "ahl98"]
-    description: >-
+- !Meeting
+  required:
+    id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
+    date: !Timestamp 2019-09-17 17:30:00
+    title: Welcome to the Intelligence Group!
+    authors: [ionlights, ahl98, ]
+    filename: welcome
+    cover-image: 'https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg'
+    tags: [welcome, deciding on research, interest in research, ]
+    room: HPA1 117
+    abstract: >-
       Welcome to the Intelligence group! This meeting, we'll be discerning
       everyone's research interests, whether passive or active. Following that,
       we'll start narrowing paper topics to fill the 5 unplanned meetings so
       everyone can begin getting a feel for the breadth of computation as a
       field of research.
-  optional:
-    tags: ["welcome", "deciding-on-research"]
-    date: ""
-    slides: ""
-    papers: []
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-
-- required:
-    title: "A Few Useful Things to Know about Machine Learning"
-    cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "useful-ml"
-    instructors: ["ionlights", "ahl98"]
-    description: >-
+  optional:  # All `optional` keys are enumerated in the Documentation
+- !Meeting
+  required:
+    id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
+    date: !Timestamp 2019-09-24 17:30:00
+    title: A Few Useful Things to Know about Machine Learning
+    authors: [ionlights, ahl98, ]
+    filename: useful-ml
+    cover-image: 'https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg'
+    tags: [intro paper, review paper, getting started in research, ]
+    room: ENG1 186
+    abstract: >-
       Machine learning algorithms can figure out how to perform important tasks
       by generalizing from examples. This is often feasible and cost-effective
       where manual programming is not. As more data becomes available, more
@@ -35,24 +36,21 @@
       lessons that machine learning researchers and practitioners have learned.
       These include pitfalls to avoid, important issues to focus on, and answers
       to common questions.
-  optional:
-    tags: ["intro-paper"]
-    date: ""
-    slides: ""
+  optional:  # All `optional` keys are enumerated in the Documentation
     papers:
       useful-ml-paper: https://www.derczynski.com/sheffield/papers/archive/useful_ml.pdf
       useful-ml-article: https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-
-- required:
-    title: "Deep Learning"
-    cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "deep-learning"
-    instructors: ["ionlights", "ahl98"]
-    description: >-
+- !Meeting
+  required:
+    id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
+    date: !Timestamp 2019-10-01 17:30:00
+    title: Deep Learning
+    authors: [ionlights, ahl98, ]
+    filename: deep-learning
+    cover-image: 'https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg'
+    tags: [intro paper, review paper, deep learning, ]
+    room: HPA1 117
+    abstract: >-
       Abstract: Deep learning allows for computational models that are composed of
       multiple processing layers to learn representations of data with multiple
       levels of abstraction. These methods have dramatically improved the state-
@@ -65,23 +63,20 @@
       nets have brought about breakthroughs in processing images, video, speech
       and audio, whereas recurrent nets have shone light on sequential data such
       as text and speech.
-  optional:
-    tags: ["intro-paper", "review-paper", "deep-learning"]
-    date: ""
-    slides: ""
-    papers:
+  optional:  # All `optional` keys are enumerated in the Documentation
+    papers: 
       deep-learning: https://www.researchgate.net/profile/Y_Bengio/publication/277411157_Deep_Learning/links/55e0cdf908ae2fac471ccf0f/Deep-Learning.pdf
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-
-- required:
-    title: "Speech Recognition with Deep Recurrent Neural Networks"
-    cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "deep-rnns"
-    instructors: ["ionlights", "ahl98"]
-    description: >-
+- !Meeting
+  required:
+    id: f29fd30d995b70644cc34d151e5547f7da5c92fd1c1fb501ffd9fdfc4f0e3c04
+    date: !Timestamp 2019-10-08 17:30:00
+    title: Speech Recognition with Deep Recurrent Neural Networks
+    authors: [ionlights, ahl98, ]
+    filename: deep-rnns
+    cover-image: 'https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg'
+    tags: [journal paper, recurrent networks, speech recognition, deep learning, nlp]
+    room: HPA1 117
+    abstract: >-
       Our first non-review paper of the semester will be on using Deep RNNs to perform
       speech recognition tasks. This approach seeks to combine the advantages of deep
       neural networks wtih the "flexible use of long-range context that empowers RNNs".
@@ -89,24 +84,20 @@
       meeting on this paper will go over questions from the paper, strategies for reading 
       more complex research papers, and how to identify strengths and weaknesses of journal 
       articles.
-
-  optional:
-    tags: ["journal-paper", "rnn", "speech-recognition", "deep-learning", "nlp"]
-    date: ""
-    slides: ""
+  optional:  # All `optional` keys are enumerated in the Documentation
     papers:
       deep-rnns: https://arxiv.org/pdf/1303.5778.pdf
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-
-- required:
-    title: "Attention Is All You Need"
-    cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "transformer"
-    instructors: ["ionlights", "ahl98"]
-    description: >-
+- !Meeting
+  required:
+    id: 02bd0d1ba8b748d9358b7d92e4026786f78890833071c2067ae912aa2a3d00fe
+    date: !Timestamp 2019-10-15 17:30:00
+    title: Attention is All You Need
+    authors: [ionlights, ahl98, ]
+    filename: transformers
+    cover-image: 'https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg'
+    tags: [conference paper, deep learning, nlp, transformers, attention, seminal work, ]
+    room: HPA1 117
+    abstract: >-
       This paper, published from work performed at Google Brain and Google Research,
       proposes a new network architecture for tackling machine translation problems
       (among other ML transduction problems). This new approach simplifies the classic
@@ -114,50 +105,41 @@
       paper is a Jupyter notebook created at Harvard to add annotations to the original 
       article while also supplying code mentioned in the work. This paper is most similar
       to the kinds of articles you can expect to be reading when doing original research.
-
-  optional:
-    tags: ["journal-paper", "nlp", "deep-learning"]
-    date: ""
-    slides: ""
+  optional:  # All `optional` keys are enumerated in the Documentation
     papers:
       transformer: https://arxiv.org/pdf/1706.03762.pdf
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-
-- required:
-    title: "The Ethics of Accident-Algorithms for Self-Driving Cars: an Applied Trolley Problem?"
-    cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "ethics"
-    instructors: ["ionlights", "ahl98"]
-    description: >-
-        This week, we're shifting focus slightly to look at ethics within the field of 
-        artifical intelligence. Ethics are an important consideration for anyone 
-        interested in the field of AI. This particular paper focuses on one of the largest
-        debates in the current AI ethics field, accident algorithms in self-driving cars.
-        In the event a self-driving car realizes an accident is about to occur, what should
-        it do? What outcomes should be prioritized? The paper reviews the current viewpoints
-        on these questions.
-
-  optional:
-    tags: ["journal-paper", "ethics", "self-driving-cars"]
-    date: ""
-    room: "ENG1 186"
-    slides: ""
+- !Meeting
+  required:
+    id: 1367f61cfe397e862d1c2465bdf4cbea5298c37c980328a36c43556e356119b7
+    date: !Timestamp 2019-10-22 17:30:00
+    title: "The Ethics of Accident-Algorithms for Self-Driving Cars: an Applied Trolly Problem?"
+    authors: [ahl98, ionlights]
+    filename: self-driving-ethics
+    cover-image: 'https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg'
+    tags: [conference paper, ethics, self driving cars, AI ethics, ]
+    room: ENG1 186
+    abstract: >-
+      This week, we're shifting focus slightly to look at ethics within the field of 
+      artifical intelligence. Ethics are an important consideration for anyone 
+      interested in the field of AI. This particular paper focuses on one of the largest
+      debates in the current AI ethics field, accident algorithms in self-driving cars.
+      In the event a self-driving car realizes an accident is about to occur, what should
+      it do? What outcomes should be prioritized? The paper reviews the current viewpoints
+      on these questions.
+  optional:  # All `optional` keys are enumerated in the Documentation
     papers:
-      self-driving-car-ethics: https://link.springer.com/content/pdf/10.1007%2Fs10677-016-9745-2.pdf
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-
-- required:
-    title: "How to Grow a Mind"
-    cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "grow-a-mind"
-    instructors: ["ionlights", "ahl98"]
-    description: >-
+      self-driving-ethics: https://link.springer.com/content/pdf/10.1007%2Fs10677-016-9745-2.pdf
+- !Meeting
+  required:
+    id: 3e589fcdc955f69df131662e4428e5ba2a97cd1e6c2efe62037de2ee3b950bca
+    date: !Timestamp 2019-10-29 17:30:00
+    title: How to Grow a Mind
+    authors: [ionlights, ahl98, ]
+    filename: grow-a-mind
+    cover-image: 'https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg'
+    tags: [review paper, cognitive science, machine learning, computational cognitive science, intuitive physics, intuitive psychology, deep learning, bayesian learning, ]
+    room: ENG1 186
+    abstract: >-
       In coming to understand the world-in learning concepts, acquiring
       language, and grasping causal relations-our minds make inferences
       that appear to go far beyond the data available. How do we do it?
@@ -170,54 +152,45 @@
       and reasoning from sparse data? What forms does our knowledge take, across
       different domains and tasks? And how is that abstract knowledge itself
       acquired?
-  optional:
-    tags: ["review-paper", "cognitive-science", "machine-learning", "abstraction"]
-    date: ""
-    room: "ENG1 186"
-    slides: ""
+  optional:  # All `optional` keys are enumerated in the Documentation
     papers:
       how-to-grow-a-mind: https://pdfs.semanticscholar.org/e7e4/bc08c9c746fda4721ac9e2206b4472e44b85.pdf
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-
-- required:
-    title: "Experimental Investigation of Ant Traffic Under Crowded Conditions"
-    cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "ants"
-    instructors: ["ionlights", "ahl98"]
-    description: >-
-        This week will be a short break from our NLP/CogSci papers. Ants are one of
-        the few creatures on the planet that engage in two-way traffic just like us.
-        By looking at how ants navigate their self-organized traffic systems, we can
-        learn how to better organize our own homologous systems (such as intersections,
-        roadways, etc.). This paper experimentally investigates the efficiency of ants 
-        navigating paths involving bidirectional movement, and found that ants are 
-        capable of a level of efficiency that is twice as high as humans' in equivalent
-        scenarios. What makes ants so much better than humans at traffic organization?
-        What can we learn from ants' organizational paradigms? Should ants be driving 
-        our cars instead of humans? These are some of the questions investigated in this
-        week's paper.
-
-  optional:
-    tags: ["article", "natural-computation", "ants", "natural-systems", "multi-agent-systems"]
-    date: ""
-    room: "ENG1 186"
-    slides: ""
-    papers: 
-        ants: https://elifesciences.org/download/aHR0cHM6Ly9jZG4uZWxpZmVzY2llbmNlcy5vcmcvYXJ0aWNsZXMvNDg5NDUvZWxpZmUtNDg5NDUtdjEucGRm/elife-48945-v1.pdf?_hash=wi3LerW7I4hHPLjDf%2B9QJVPOBxpEO0Snoluo6g%2BrWF0%3D
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-
-- required:
-    title: "Building Machines That Learn and Think Like People"
-    cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "machines-learn-think-people"
-    instructors: ["ionlights", "ahl98"]
-    description: >-
+- !Meeting
+  required:
+    id: b914b7d0fd34cbfcf7807e5aaa89c8275cb76b66d879e223d684f26635a44f7e
+    date: !Timestamp 2019-11-05 17:30:00
+    title: Experimental Investigation of Ant Traffic Under Crowded Conditions
+    authors: [ionlights, ahl98, ]
+    filename: ants
+    cover-image: 'https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg'
+    tags: [natural computation, ants, natural systems, multi-agent systems, biologically inspired computation, ]
+    room: ENG1 186
+    abstract: >-
+      This week will be a short break from our NLP/CogSci papers. Ants are one of
+      the few creatures on the planet that engage in two-way traffic just like us.
+      By looking at how ants navigate their self-organized traffic systems, we can
+      learn how to better organize our own homologous systems (such as intersections,
+      roadways, etc.). This paper experimentally investigates the efficiency of ants 
+      navigating paths involving bidirectional movement, and found that ants are 
+      capable of a level of efficiency that is twice as high as humans' in equivalent
+      scenarios. What makes ants so much better than humans at traffic organization?
+      What can we learn from ants' organizational paradigms? Should ants be driving 
+      our cars instead of humans? These are some of the questions investigated in this
+      week's paper.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    papers:
+      ants: https://elifesciences.org/download/aHR0cHM6Ly9jZG4uZWxpZmVzY2llbmNlcy5vcmcvYXJ0aWNsZXMvNDg5NDUvZWxpZmUtNDg5NDUtdjEucGRm/elife-48945-v1.pdf?_hash=wi3LerW7I4hHPLjDf%2B9QJVPOBxpEO0Snoluo6g%2BrWF0%3D
+- !Meeting
+  required:
+    id: cebdadd4fdcde94eb6eea2edcbe663d4df6d06f8ef91ca2c1bd3afb1ff4318cb
+    date: !Timestamp 2019-11-12 17:30:00
+    title: Building Machines That Learn and Think Like People
+    authors: [ionlights, ahl98, ]
+    filename: machines-learn-think-people
+    cover-image: 'https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg'
+    tags: [cognitive science, computational cognitive science, human-like AI, cognition, review paper, opinion paper, intuitive physics, intuitive psychology, ]
+    room: ENG1 186
+    abstract: >-
       Recent progress in artificial intelligence (AI) has renewed interest in
       building systems that learn and think like people. Many advances have
       come from using deep neural networks trained end-to-end in tasks such as
@@ -236,25 +209,20 @@
       knowledge to new tasks and situations. We suggest concrete challenges and
       promising routes towards these goals that can combine the strengths of
       recent neural network advances with more structured cognitive models.
-  optional:
-    tags: ["long-paper"]
-    date: ""
-    room: "ENG1 186"
-    slides: ""
+  optional:  # All `optional` keys are enumerated in the Documentation
     papers:
       machines-learn-think-people: https://arxiv.org/pdf/1604.00289.pdf
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-
-
-- required:
-    title: "Building Machines That Learn and Think For Themselves"
-    cover: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-    filename: "machines-learn-think-themselves"
-    instructors: ["ionlights", "ahl98"]
-    description: >-
+- !Meeting
+  required:
+    id: 43c316921632d149a2e626c58f8ad5e4fd4aec01bef6970954cddd72f0235c3e
+    date: !Timestamp 2019-11-19 17:30:00
+    title: Building Machines that Learn and Think for Themselves
+    authors: [ionlights, ahl98, ]
+    filename: machines-learn-think-themselves
+    cover-image: ''
+    tags: [reinforcement learning, autonomous systems, ]
+    room: ENG1 186
+    abstract: >-
       We agree with Lake and colleagues on their list of key ingredients for
       building humanlike intelligence, including the idea that model-based
       reasoning is essential. However, we favor an approach that centers on one
@@ -266,14 +234,6 @@
       available. Here we survey several important examples of the progress that
       has been made toward building autonomous agents with humanlike abilities,
       and highlight some outstanding challenges.
-  optional:
-    tags: ["long-paper"]
-    date: ""
-    room: "ENG1 186"
-    slides: ""
-    papers:
+  optional:  # All `optional` keys are enumerated in the Documentation
+    papers: 
       machines-learn-think-themselves: https://arxiv.org/pdf/1711.08378.pdf
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []

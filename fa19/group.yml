@@ -1,0 +1,17 @@
+!Group
+required:
+  name: discussions
+  room: 'ENG1 186'
+  semester: fa19
+  startdate: !Timestamp 2019-09-17 17:30:00
+  frequency: 1
+  directors: [ionlights, ahl98]
+  coordinators: []
+  guests: []
+  advisors: []
+  summary: >
+
+optional:
+  use-kaggle: true
+  use-notebooks: false
+  use-papers: true
