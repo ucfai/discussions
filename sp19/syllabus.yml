@@ -1,167 +1,195 @@
-#: #############################################################################
-#: primary:
-#: - name: "<full-lecture-title>"
-#:   file: "<url-for-website>" # looks like... /<group>/<semester>/<file>
-#:   inst: [<instructor_1>, <instructor_2>, ...]
-#:   date: "<MM>/<DD>"
-#:   desc: >- # the ">-" specifies to YAML its a multi-line string
-#:     <meeting-description>
-#: supplementary: ... (same format, just a different key)
-#: #############################################################################
-primary:
-- name: "A Few Useful Things to Know about Machine Learning by Pedro Domingos"
-  file: "useful-ml"
-  paper: "https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf"
-  covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-  tags: ["intro", "research", "uwash"]
-  inst: ["Waldmannly", "ionlights"]
-  desc: >-
-    Abstract: Machine learning algorithms can figure out how to perform
-    important tasks by generalizing from examples. This is often feasible and
-    cost-effective where manual programming is not. As more data becomes
-    available, more ambitious problems can be tackled. As a result, machine
-    learning is widely used in computer science and other fields. However,
-    developing successful machine learning applications requires a substantial
-    amount of "black art" that is hard to find in textbooks. This article
-    summarizes twelve key lessons that machine learning researchers and
-    practitioners have learned. These include pitfalls to avoid, important
-    issues to focus on, and answers to common questions.
-
-- name: "Intro to Machine Learning Topics"
-  file: "intro-to-ml-topics"
-  paper: "https://www.intechopen.com/books/new-advances-in-machine-learning/introduction-to-machine-learning"
-  covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-  tags: ["intro", "research", "topics", "summary"]
-  inst: ["Waldmannly", "ionlights"]
-  desc: >-
-    Summary: This paper includes a brief introduction to and history of machine
-    learning as well as breif summaries of topics in the field.
-
-- name: "Deep Learning"
-  file: "deep-learning"
-  paper: "https://www.nature.com/articles/nature14539"
-  covr: "https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg"
-  tags: ["intro", "research", "deep-learning", "summary"]
-  inst: ["Waldmannly", "ionlights"]
-  desc: >-
-    Abstract: Deep learning allows for computational models that are composed of
-    multiple processing layers to learn representations of data with multiple
-    levels of abstraction. These methods have dramatically improved the state-
-    of-the-art in speech recognition, visual object recognition, object
-    detection and many other domains such as drug discovery and genomics. Deep
-    learning discovers intricate structure in large data sets by using the
-    backpropagation algorithm to indicate how a machine should change its
-    internal parameters that are used to compute the representation in each
-    layer from the representation in the previous layer. Deep convolutional
-    nets have brought about breakthroughs in processing images, video, speech
-    and audio, whereas recurrent nets have shone light on sequential data such
-    as text and speech.
-
-- name: "Handwritten Digit Recognition with a Back-Propagation Network"
-  file: "first-cnns-backprop"
-  paper: "http://yann.lecun.com/exdb/publis/pdf/lecun-90c.pdf"
-  covr: "https://www.topbots.com/wp-content/uploads/2017/03/convnet_design_patterns_1600x700_web-1280x640.jpg"
-  tags: ["intro", "research", "deep-learning", "conv-nets"]
-  inst: ["Waldmannly", "ionlights"]
-  desc: >-
-    Abstract: We present an application of back-propagation networks to
-    hand-written digit recognition. Minimal preprocessing of the data was
-    required, but architecture of the network was highly constrained and
-    specifically designed for the task. The input of the network consists of
-    nromalized images of isolated digits. The method has 1% error rate and
-    about a 9% reject rate on zipcode digits provided by the US Postal Service.
-
-- name: "CS294A Lecture notes: Sparse autoencoder"
-  file: "sparse-autoencoder"
-  paper: "https://web.stanford.edu/class/cs294a/sparseAutoencoder.pdf"
-  covr: "https://www.topbots.com/wp-content/uploads/2017/03/convnet_design_patterns_1600x700_web-1280x640.jpg"
-  tags: ["intro", "research", "learning", "sparese", "autoencoder", "review", "notes"]
-  inst: ["Waldmannly", "ionlights"]
-  desc: >-
-    Summary: These notes describe the sparse autoencoder learning algorithm, which
-    is one approach to automatically learn features from unlabeled data. In some
-    domains, such as computer vision, this approach is not by itself competitive
-    with the best hand-engineered features, but the features it can learn do turn
-    out to be useful for a range of problems (including ones in audio, text, etc).
-
-- name: "A Critical Review of Recurrent Neural Networks for Sequence Learning"
-  file: "review-rnn-sequence-learning"
-  paper: "https://arxiv.org/pdf/1506.00019.pdf"
-  covr: "https://www.topbots.com/wp-content/uploads/2017/03/convnet_design_patterns_1600x700_web-1280x640.jpg"
-  tags: ["review", "research", "learning", "sequence", "rnn", "paper"]
-  inst: ["Waldmannly", "ionlights"]
-  desc: >-
-    Summary: Countless learning tasks require dealing with sequential data. Image
-    captioning, speech synthesis, and music generation all require that a model 
-    produce outputs that are sequences. In other domains, such as time series
-    prediction, video analysis, and musical information retrieval, a model must
-    learn from inputs that are sequences. Interactive tasks, such as translating
-    natural language, engaging in dialogue, and controlling a robot, often demand
-    both capabilities. Recurrent neural networks (RNNs) are connectionist models
-    that capture the dynamics of sequences via cycles in the network of nodes.
-    Unlike standard feedforward neural networks, recurrent networks retain a state
-    that can represent information from an arbitrarily long context window. 
-    Although recurrent neural networks have traditionally been difficult to train,
-    and often contain millions of parameters, recent advances in network
-    architectures, optimization techniques, and parallel computation have enabled
-    successful large-scale learning with them. In recent years, systems based on
-    long short-term memory (LSTM) and bidirectional (BRNN) architectures have
-    demonstrated ground-breaking performance on tasks as varied as image
-    captioning, language translation, and handwriting recognition. In this survey,
-    we review and synthesize the research that over the past three decades first
-    yielded and then made practical these powerful learning models. When 
-    appropriate, we reconcile conflicting notation and nomenclature. Our goal is
-    to provide a selfcontained explication of the state of the art together with
-    a historical perspective and references to primary research.
-
-- name: "Deep Visual-Semantic Alignments for Generating Image Descriptions"
-  file: "image-description-generation"
-  paper: "https://arxiv.org/pdf/1412.2306.pdf"
-  covr: "https://www.topbots.com/wp-content/uploads/2017/03/convnet_design_patterns_1600x700_web-1280x640.jpg"
-  tags: ["cnn", "captioning", "images", "stanford"]
-  inst: ["Waldmannly", "ionlights"]
-  desc: >-
-    Abstract: We present a model that generates natural language descriptions of
-    images and their regions. Our approach leverages datasets of images and their
-    sentence descriptions tolearn about the inter-modal correspondences between 
-    language and visual data. Our alignment model is based on a novel combination
-    of Convolutional Neural Networks over image regions, bidirectional Recurrent
-    Neural Networks over sentences, and a structured objective that aligns the 
-    two modalities through a multimodal embedding. We then describe a Multimodal
-    Recurrent Neural Network architecture that uses the inferred alignments to
-    learn to generate novel descriptions of image regions.  We demonstrate that 
-    our alignment model produces state of the art results in retrieval experiments
-    on Flickr8K, Flickr30K and MSCOCOdatasets. We then show that the generated
-    descriptions sig outperform retrieval baselines on both full images and on a
-    new dataset of region-level annotations.
-
-- name: "Cancelled"
-  file: "cancelled"
-  paper: ""
-  covr: ""
-  tags: []
-  inst: ["Waldmannly", "ionlights"]
-  desc: >-
-
-- name: "Generative Adversarial Networks"
-  file: "gans"
-  paper: "https://arxiv.org/pdf/1406.2661.pdf"
-  covr: "https://uploads.toptal.io/blog/image/124664/toptal-blog-image-1510649034809-64c5d802bea962b4e26940d4f0837f2d.png"
-  tags: ["gans", "toronto", "neural-nets", "adversarial-training"]
-  inst: ["Waldmannly", "ionlights"]
-  desc: >-
-    Abstract: We propose a new framework for estimating generative models via
-    an adversarial process, in which we simultaneously train two models: a
-    generative model G that captures the data distribution, and a
-    discriminative model D that estimates the probability that a sample came
-    from the training data rather than G. The training procedure for G is to
-    maximize the probability of D making a mistake. This framework corresponds
-    to a minimax two-player game. In the space of arbitrary functions G and D,
-    a unique solution exists, with G recovering the training data distribution
-    and D equal to 1/2 everywhere. In the case where G and D are defined by
-    multilayer perceptrons, the entire system can be trained with
-    backpropagation. There is no need for any Markov chains or unrolled
-    approximate inference networks during either training or generation of
-    samples. Experiments demonstrate the potential of the framework through
-    qualitative and quantitative evaluation of the generated samples.
-
+- !Meeting
+  required:
+    id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
+    date: !Timestamp 2019-02-04 19:30:00
+    title: A Few Useful Things to Know about Machine Learning, by Pedro Domingos"
+    authors: [ionlights, waldmannly, ]
+    filename: useful-ml
+    cover-image: 'https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg'
+    tags: [research, uwash, intro paper]
+    room: HEC 119
+    abstract: >-
+      Abstract: Machine learning algorithms can figure out how to perform
+      important tasks by generalizing from examples. This is often feasible and
+      cost-effective where manual programming is not. As more data becomes
+      available, more ambitious problems can be tackled. As a result, machine
+      learning is widely used in computer science and other fields. However,
+      developing successful machine learning applications requires a substantial
+      amount of "black art" that is hard to find in textbooks. This article
+      summarizes twelve key lessons that machine learning researchers and
+      practitioners have learned. These include pitfalls to avoid, important
+      issues to focus on, and answers to common questions.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    papers:
+      useful-ml: https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf
+- !Meeting
+  required:
+    id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
+    date: !Timestamp 2019-02-11 19:30:00
+    title: Intro to Machine Learning Topics
+    authors: [ionlights, waldmannly, ]
+    filename: intro-ml-topics
+    cover-image: 'https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg'
+    tags: [intro, research, machine learning topics, machine learning review, ]
+    room: HEC 119
+    abstract: >-
+      Summary: This paper includes a brief introduction to and history of machine
+      learning as well as breif summaries of topics in the field.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    papers:
+      intro-ml-topics: https://www.intechopen.com/books/new-advances-in-machine-learning/introduction-to-machine-learning
+- !Meeting
+  required:
+    id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
+    date: !Timestamp 2019-02-18 19:30:00
+    title: Deep Learning
+    authors: [ionlights, waldmannly, ]
+    filename: deep-learning
+    cover-image: 'https://cdn-images-1.medium.com/max/1600/0*WbHkMBXJILlrXgYj.jpg'
+    tags: [introduction, deep learning review, research, review paper]
+    room: HEC 119
+    abstract: >-
+      Abstract: Deep learning allows for computational models that are composed of
+      multiple processing layers to learn representations of data with multiple
+      levels of abstraction. These methods have dramatically improved the state-
+      of-the-art in speech recognition, visual object recognition, object
+      detection and many other domains such as drug discovery and genomics. Deep
+      learning discovers intricate structure in large data sets by using the
+      backpropagation algorithm to indicate how a machine should change its
+      internal parameters that are used to compute the representation in each
+      layer from the representation in the previous layer. Deep convolutional
+      nets have brought about breakthroughs in processing images, video, speech
+      and audio, whereas recurrent nets have shone light on sequential data such
+      as text and speech.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    papers:
+      deep-learning: https://www.researchgate.net/profile/Y_Bengio/publication/277411157_Deep_Learning/links/55e0cdf908ae2fac471ccf0f/Deep-Learning.pdf
+- !Meeting
+  required:
+    id: f29fd30d995b70644cc34d151e5547f7da5c92fd1c1fb501ffd9fdfc4f0e3c04
+    date: !Timestamp 2019-02-25 19:30:00
+    title: Handwritten Digit Recognition with a Back-Propagation Network
+    authors: [ionlights, waldmannly, ]
+    filename: first-cnns-backprop
+    cover-image: 'https://www.topbots.com/wp-content/uploads/2017/03/convnet_design_patterns_1600x700_web-1280x640.jpg'
+    tags: [intro, research, deep learning, convolutional networks, backpropagation, ]
+    room: HEC 119
+    abstract: >-
+      Abstract: We present an application of back-propagation networks to
+      hand-written digit recognition. Minimal preprocessing of the data was
+      required, but architecture of the network was highly constrained and
+      specifically designed for the task. The input of the network consists of
+      normalized images of isolated digits. The method has 1% error rate and
+      about a 9% reject rate on zipcode digits provided by the US Postal Service.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    papers:
+      first-cnns-backprop: http://yann.lecun.com/exdb/publis/pdf/lecun-90c.pdf
+- !Meeting
+  required:
+    id: 02bd0d1ba8b748d9358b7d92e4026786f78890833071c2067ae912aa2a3d00fe
+    date: !Timestamp 2019-03-04 19:30:00
+    title: "CS294A Lectures Notes: Sparse Autoencoders"
+    authors: [waldmannly, ionlights, ]
+    filename: sparse-autoencoders
+    cover-image: 'https://www.topbots.com/wp-content/uploads/2017/03/convnet_design_patterns_1600x700_web-1280x640.jpg'
+    tags: [research, learning, sparse autoencoders, autoencoders, review paper, notes, ]
+    room: HEC 119
+    abstract: >-
+      Summary: These notes describe the sparse autoencoder learning algorithm, which
+      is one approach to automatically learn features from unlabeled data. In some
+      domains, such as computer vision, this approach is not by itself competitive
+      with the best hand-engineered features, but the features it can learn do turn
+      out to be useful for a range of problems (including ones in audio, text, etc).
+  optional:  # All `optional` keys are enumerated in the Documentation
+    papers:
+      sparse-autoencoders: https://web.stanford.edu/class/cs294a/sparseAutoencoder.pdf
+- !Meeting
+  required:
+    id: 1367f61cfe397e862d1c2465bdf4cbea5298c37c980328a36c43556e356119b7
+    date: !Timestamp 2019-03-18 19:30:00
+    title: "A Critical Review of Recurrent Neural Networks for Sequence Learning"
+    authors: [ionlights, waldmannly, ]
+    filename: rnn-review
+    cover-image: 'https://www.topbots.com/wp-content/uploads/2017/03/convnet_design_patterns_1600x700_web-1280x640.jpg'
+    tags: [research, review paper, sequence learning, time series, recurrent networks, deep learning, limitations]
+    room: HEC 119
+    abstract: >-
+      Abstract: Countless learning tasks require dealing with sequential data. Image
+      captioning, speech synthesis, and music generation all require that a model 
+      produce outputs that are sequences. In other domains, such as time series
+      prediction, video analysis, and musical information retrieval, a model must
+      learn from inputs that are sequences. Interactive tasks, such as translating
+      natural language, engaging in dialogue, and controlling a robot, often demand
+      both capabilities. Recurrent neural networks (RNNs) are connectionist models
+      that capture the dynamics of sequences via cycles in the network of nodes.
+      Unlike standard feedforward neural networks, recurrent networks retain a state
+      that can represent information from an arbitrarily long context window. 
+      Although recurrent neural networks have traditionally been difficult to train,
+      and often contain millions of parameters, recent advances in network
+      architectures, optimization techniques, and parallel computation have enabled
+      successful large-scale learning with them. In recent years, systems based on
+      long short-term memory (LSTM) and bidirectional (BRNN) architectures have
+      demonstrated ground-breaking performance on tasks as varied as image
+      captioning, language translation, and handwriting recognition. In this survey,
+      we review and synthesize the research that over the past three decades first
+      yielded and then made practical these powerful learning models. When 
+      appropriate, we reconcile conflicting notation and nomenclature. Our goal is
+      to provide a selfcontained explication of the state of the art together with
+      a historical perspective and references to primary research.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    papers:
+      rnn-review: https://arxiv.org/pdf/1506.00019.pdf
+- !Meeting
+  required:
+    id: 3e589fcdc955f69df131662e4428e5ba2a97cd1e6c2efe62037de2ee3b950bca
+    date: !Timestamp 2019-03-25 19:30:00
+    title: Deep Visual-Semantic Alignments for Generating Image Descriptions
+    authors: [waldmannly, ionlights]
+    filename: image-caption-generation
+    cover-image: 'https://www.topbots.com/wp-content/uploads/2017/03/convnet_design_patterns_1600x700_web-1280x640.jpg'
+    tags: [deep learning, convolutional networks, caption generation, image recognition, ]
+    room: HEC 119
+    abstract: >-
+      Abstract: We present a model that generates natural language descriptions of
+      images and their regions. Our approach leverages datasets of images and their
+      sentence descriptions tolearn about the inter-modal correspondences between 
+      language and visual data. Our alignment model is based on a novel combination
+      of Convolutional Neural Networks over image regions, bidirectional Recurrent
+      Neural Networks over sentences, and a structured objective that aligns the 
+      two modalities through a multimodal embedding. We then describe a Multimodal
+      Recurrent Neural Network architecture that uses the inferred alignments to
+      learn to generate novel descriptions of image regions.  We demonstrate that 
+      our alignment model produces state of the art results in retrieval experiments
+      on Flickr8K, Flickr30K and MSCOCOdatasets. We then show that the generated
+      descriptions sig outperform retrieval baselines on both full images and on a
+      new dataset of region-level annotations.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    papers:
+      image-caption-generation: https://arxiv.org/pdf/1412.2306.pdf
+- !Meeting
+  required:
+    id: b914b7d0fd34cbfcf7807e5aaa89c8275cb76b66d879e223d684f26635a44f7e
+    date: !Timestamp 2019-04-08 19:30:00
+    title: Generative Adversarial Networks
+    authors: [ionlights, waldmannly, ]
+    filename: gans
+    cover-image: 'https://uploads.toptal.io/blog/image/124664/toptal-blog-image-1510649034809-64c5d802bea962b4e26940d4f0837f2d.png"'
+    tags: [generative models, generative adversarial networks, deep learning, adversarial learning, ]
+    room: HEC 119
+    abstract: >-
+      Abstract: We propose a new framework for estimating generative models via
+      an adversarial process, in which we simultaneously train two models: a
+      generative model G that captures the data distribution, and a
+      discriminative model D that estimates the probability that a sample came
+      from the training data rather than G. The training procedure for G is to
+      maximize the probability of D making a mistake. This framework corresponds
+      to a minimax two-player game. In the space of arbitrary functions G and D,
+      a unique solution exists, with G recovering the training data distribution
+      and D equal to 1/2 everywhere. In the case where G and D are defined by
+      multilayer perceptrons, the entire system can be trained with
+      backpropagation. There is no need for any Markov chains or unrolled
+      approximate inference networks during either training or generation of
+      samples. Experiments demonstrate the potential of the framework through
+  optional:  # All `optional` keys are enumerated in the Documentation
+    papers:
+      gans: https://arxiv.org/pdf/1406.2661.pdf

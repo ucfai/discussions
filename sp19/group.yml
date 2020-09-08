@@ -1,0 +1,17 @@
+!Group
+required:
+  name: discussions
+  room: 'HEC 119'
+  semester: sp19
+  startdate: !Timestamp 2019-02-04 19:30:00
+  frequency: 1
+  directors: [ionlights, waldmannly]
+  coordinators: []
+  guests: []
+  advisors: []
+  summary: >
+
+optional:
+  use-kaggle: true
+  use-notebooks: false
+  use-papers: true
