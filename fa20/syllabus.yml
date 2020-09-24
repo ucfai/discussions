@@ -21,12 +21,12 @@
     authors: []
     filename: meeting01
     cover-image: ''
-    tags: []
+    tags: ["ai", "machine learning"]
     room: Online
     abstract: >-
-      We're filling this out!
+      This weeks paper we're going over a super fun application of ML in Video Games! Well see how AI/ML techniques can help enhance games like Legend of Zelda and provide limitless engaging content
   optional:  # All `optional` keys are enumerated in the Documentation
-    papers:
+    papers: https://arxiv.org/pdf/2001.05065.pdf
 - !Meeting
   required:
     id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
