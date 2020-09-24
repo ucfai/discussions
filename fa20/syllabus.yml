@@ -2,18 +2,18 @@
   required:
     id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
     date: !Timestamp 2020-09-15 18:00:00
-    title: a-few-useful-things
-    authors: ["PaulLunis]
+    title: A Few Useful Things To Know About Machine Learning
+    authors: ["PaulLunis"]
     filename: useful-ml
     cover-image: 'https://cacm.acm.org/system/assets/0000/9220/092012_CACMpg79_A-Few-Useful-Things2.large.jpg?1476779416&1348149730'
-    tags: ["ai","machine learning","review paper","data science","ml research"]
+    tags: ["ai","machine learning","review paper","data science","ml research","intro paper"]
     room: Online
     abstract: >-
      This week for our first paper we'll be reading A Few Useful Things to Know about Machine Learning. This will be a useful review paper to help get 
      everyone familiar with the field of machine learning and is full of useful vocabulary and conventional outlooks on AI as a whole. 
   optional:  # All `optional` keys are enumerated in the Documentation
     papers:
-      useful ml pdf: https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf
+      useful-ml-pdf: https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf
 - !Meeting
   required:
     id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
