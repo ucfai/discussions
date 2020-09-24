@@ -18,16 +18,17 @@
   required:
     id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
     date: !Timestamp 2020-09-29 18:00:00
-    title: meeting01
-    authors: []
-    filename: meeting01
+    title: Endless content in Video Games using Machine Learning
+    authors: ["Hevia"]
+    filename: ai-in-zelda
     cover-image: ''
-    tags: []
+    tags: ["ai", "machine learning", "gans", "generative ML", "video games"]
     room: Online
     abstract: >-
-      We're filling this out!
+      This weeks paper we're going over a super fun application of ML in Video Games! Well see how AI/ML techniques can help enhance games like Legend of Zelda and provide limitless engaging content
   optional:  # All `optional` keys are enumerated in the Documentation
-    papers:
+    papers: 
+      ai-in-zelda:  https://arxiv.org/pdf/2001.05065.pdf
 - !Meeting
   required:
     id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
