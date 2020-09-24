@@ -13,7 +13,7 @@
      everyone familiar with the field of machine learning and is full of useful vocabulary and conventional outlooks on AI as a whole. 
   optional:  # All `optional` keys are enumerated in the Documentation
     papers:
-      useful-ml-pdf: https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf
+      useful-ml: https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf
 - !Meeting
   required:
     id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
