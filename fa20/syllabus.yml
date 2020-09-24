@@ -21,7 +21,7 @@
     authors: ["Hevia]
     filename: ai-in-zelda
     cover-image: ''
-    tags: ["ai", "machine learning"]
+    tags: ["ai", "machine learning", "gans", "generative ML", "video games"]
     room: Online
     abstract: >-
       This weeks paper we're going over a super fun application of ML in Video Games! Well see how AI/ML techniques can help enhance games like Legend of Zelda and provide limitless engaging content
