@@ -17,9 +17,9 @@
   required:
     id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
     date: !Timestamp 2020-09-29 18:00:00
-    title: meeting01
-    authors: []
-    filename: meeting01
+    title: Endless content in Video Games using Machine Learning
+    authors: ["Hevia]
+    filename: ai-in-zelda
     cover-image: ''
     tags: ["ai", "machine learning"]
     room: Online
