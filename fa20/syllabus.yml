@@ -9,8 +9,8 @@
     tags: ["ai","machine learning","review paper","data science","ml research","intro paper"]
     room: Online
     abstract: >-
-     This week for our first paper we'll be reading A Few Useful Things to Know about Machine Learning. This will be a useful review paper to help get 
-     everyone familiar with the field of machine learning and is full of useful vocabulary and conventional outlooks on AI as a whole. 
+     This week for our first paper we'll be reading A Few Useful Things to Know about Machine Learning. This will be a useful review paper to help get
+     everyone familiar with the field of machine learning and is full of useful vocabulary and conventional outlooks on AI as a whole.
   optional:  # All `optional` keys are enumerated in the Documentation
     papers:
       useful-ml: https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf
@@ -18,7 +18,7 @@
   required:
     id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
     date: !Timestamp 2020-09-29 18:00:00
-    title: Endless content in Video Games using Machine Learning
+    title: Endless Content in Video Games using Machine Learning
     authors: ["Hevia"]
     filename: ai-in-zelda
     cover-image: ''
@@ -27,7 +27,7 @@
     abstract: >-
       This weeks paper we're going over a super fun application of ML in Video Games! Well see how AI/ML techniques can help enhance games like Legend of Zelda and provide limitless engaging content
   optional:  # All `optional` keys are enumerated in the Documentation
-    papers: 
+    papers:
       ai-in-zelda:  https://arxiv.org/pdf/2001.05065.pdf
 - !Meeting
   required:
