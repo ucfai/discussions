@@ -33,14 +33,14 @@
   required:
     id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
     date: !Timestamp 2020-10-13 18:00:00
-    title: meeting02
-    authors: []
+    title: Use the Force, Luke! Learning to Predict Physical Forces by Simulating Effects
+    authors: ["irene-l-tanner"]
     filename: meeting02
-    cover-image: ''
-    tags: []
+    cover-image: 'https://geekculture.co/wp-content/uploads/2020/05/mark-hamill-star-wars-luke-skywalker-1.jpg'
+    tags: ["computer vision", "physics", "forces"]
     room: Online
     abstract: >-
-      We're filling this out!
+      This week we'll be looking at how a physics simulator can be applied to a computer vision model to predict physical forces.
   optional:  # All `optional` keys are enumerated in the Documentation
     papers:
 - !Meeting
