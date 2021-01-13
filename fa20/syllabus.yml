@@ -21,7 +21,7 @@
     title: Endless Content in Video Games using Machine Learning
     authors: ["Hevia"]
     filename: ai-in-zelda
-    cover-image: ''
+    cover-image: 'https://www.zeldadungeon.net/wiki/images/thumb/f/fc/LoZ_Q_001.png/500px-LoZ_Q_001.png'
     tags: ["ai", "machine learning", "gans", "generative ML", "video games"]
     room: Online
     abstract: >-
@@ -33,55 +33,59 @@
   required:
     id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
     date: !Timestamp 2020-10-13 18:00:00
-    title: meeting02
-    authors: []
-    filename: meeting02
-    cover-image: ''
-    tags: []
+    title: Use the Force Luke! Learning to Predict Physical Forces by Simulating Effects
+    authors: ["Irene"]
+    filename: physical-force-prediction
+    cover-image: 'https://static.wikia.nocookie.net/starwars/images/5/5a/The_Force.png/revision/latest?cb=20130205053900'
+    tags: ["ai", "machine learning", "physics", "simulation"]
     room: Online
     abstract: >-
-      We're filling this out!
+      This meeting Discussions is ocovering a paper that will show us how we can use physics simulations to try and predict how an object will move 
   optional:  # All `optional` keys are enumerated in the Documentation
     papers:
+      physical-force-prediction: https://openaccess.thecvf.com/content_CVPR_2020/papers/Ehsani_Use_the_Force_Luke_Learning_to_Predict_Physical_Forces_by_CVPR_2020_paper.pdf
 - !Meeting
   required:
     id: f29fd30d995b70644cc34d151e5547f7da5c92fd1c1fb501ffd9fdfc4f0e3c04
     date: !Timestamp 2020-10-27 18:00:00
-    title: meeting03
-    authors: []
-    filename: meeting03
-    cover-image: ''
-    tags: []
+    title: “I won’t lie, it wasn’t amazing”: Modeling Polite Indirect Speech
+    authors: ["John"]
+    filename: indirect-speech-modeling
+    cover-image: 'https://media.istockphoto.com/photos/two-young-women-laughing-behind-their-male-colleague-picture-id697722486?k=6&m=697722486&s=612x612&w=0&h=BcKiuwebLLJiMDDR50EBzEYdFioRxLhsvzNMRDg12N0='
+    tags: ["ai", "machine learning", "Politeness", "computational modeling", "communicative goals", "pragmatics"]
     room: Online
     abstract: >-
-      We're filling this out!
+    This time Discussions is looking at a paper the difficult topic of catching some of the nuances of everyday language and the subtext within.
   optional:  # All `optional` keys are enumerated in the Documentation
     papers:
+      indirect-speech-modeling: http://langcog.stanford.edu/papers_new/yoon-2017-cogsci.pdf
 - !Meeting
   required:
     id: 02bd0d1ba8b748d9358b7d92e4026786f78890833071c2067ae912aa2a3d00fe
     date: !Timestamp 2020-11-10 18:00:00
-    title: meeting04
-    authors: []
-    filename: meeting04
-    cover-image: ''
-    tags: []
+    title: The Consciousness Prior
+    authors: ["PaulLunis]
+    filename: consciousness-prior
+    cover-image: 'https://media.nature.com/lw800/magazine-assets/d41586-018-05097-x/d41586-018-05097-x_15736208.jpg'
+    tags: [""ai", "philosophy","consciousness","cognitive neuroscience","RNN"]
     room: Online
     abstract: >-
-      We're filling this out!
+      In our first voting week here we have a paper that uses a theory of consciousness taken from cognitive neuroscience and shows its applications to AI!
   optional:  # All `optional` keys are enumerated in the Documentation
     papers:
+      consciousness-prior: https://arxiv.org/pdf/1709.08568.pdf
 - !Meeting
   required:
     id: 1367f61cfe397e862d1c2465bdf4cbea5298c37c980328a36c43556e356119b7
     date: !Timestamp 2020-11-24 18:00:00
-    title: meeting05
-    authors: []
-    filename: meeting05
-    cover-image: ''
-    tags: []
+    title: Outbreak Analytics: A Developing Data Science for Informing the Response to Emerging Pathogen
+    authors: ["PaulLunis"]
+    filename: outbreak-analytics
+    cover-image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGoDe25LcO8ywyDqGALf6P_Zq-8NTsdCd2Zg&usqp=CAU'
+    tags: ["ai","epidemics", "infectious", "pipeline"]
     room: Online
     abstract: >-
-      We're filling this out!
+      For our second voting week paper we have one that goes over the trends and analytics from outbreak data and how data science can help in predicting future events.
   optional:  # All `optional` keys are enumerated in the Documentation
     papers:
+      outbreak-analytics: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6558557/pdf/rstb20180276.pdf
