@@ -1,11 +1,13 @@
 # Check the Docs for details on editing this!
 name: "discussions"
-room: ""
+room: "Online"
 semester: "sp21"
-startdate: "2021-01-18T00:00:00"
-directors: []
-coordinators: []
-guests: []
+startdate: "2021-01-19T18:00:00"
+directors: ["PaulLunis"]
+coordinators: ["h3rmi0n3","PedroContipelli","ColonelToad","darenh"]
+guests: ["ionlights"]
 advisors: []
 abstract: >-
-  We're filling this out!
+  This group focuses on reading research papers and discussing it with your peers. If you like hearing about new and interesting topics
+  in the field than this is a great place for you! Whether this is your first time reading a paper or you have experience with research,
+  we truly believe this group has something for everyone. 
