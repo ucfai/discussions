@@ -1,23 +1,24 @@
 # Check the Docs for details on editing this!
 - id: "46ff0e01-0124-4859-92e5-9f20e1ebefa3"
-  title: "meeting00"
-  filename: "meeting00"
-  date: "2021-01-25T00:00:00"
-  authors: []
-  cover_image: ""
-  tags: []
+  title: "Interest Meeting"
+  filename: "interest-meeting"
+  date: "2021-01-19T00:00:00"
+  authors: ["sirroboto"]
+  cover_image: "https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg"
+  tags: ["club", "ucfai", "ai@ucf"]
   room: ""
   abstract: >-
-    We're filling this out!
-  urls: {}
-  kaggle: {}
+    Welcome to AI@UCF! We'll be introducing newcomers and returning members alike to the club this Fall, sharing what we'll be up to. We'll be reviewing club structure, how we'll be running our meetings and more!
+  urls:
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vQ00lPPqjtiIK6yDbUBSHZRDXstOC-EBml1EJoVoxC8128P284MiCdHFIzASER2MwVL1h9zxI8jyKgf/pub?start=false&loop=false&delayms=3000
+  kaggle: false
   papers: {}
 # Check the Docs for details on editing this!
 - id: "2d44b6ad-1e6a-4352-80a1-74f3d59e84e6"
   title: "meeting01"
   filename: "meeting01"
-  date: "2021-02-01T00:00:00"
-  authors: []
+  date: "2021-01-26T00:00:00"
+  authors: ["PaulLunis"]
   cover_image: ""
   tags: []
   room: ""
@@ -30,7 +31,7 @@
 - id: "a89e7d02-1bfb-4cc8-be22-8208cf62f4c4"
   title: "meeting02"
   filename: "meeting02"
-  date: "2021-02-08T00:00:00"
+  date: "2021-02-09T00:00:00"
   authors: []
   cover_image: ""
   tags: []
@@ -44,7 +45,7 @@
 - id: "03b19eb6-b78b-40fb-b799-57c3bce1e83d"
   title: "meeting03"
   filename: "meeting03"
-  date: "2021-02-15T00:00:00"
+  date: "2021-02-23T00:00:00"
   authors: []
   cover_image: ""
   tags: []
@@ -58,7 +59,7 @@
 - id: "44172abe-ad87-4123-882a-c52a6437d8ad"
   title: "meeting04"
   filename: "meeting04"
-  date: "2021-02-22T00:00:00"
+  date: "2021-03-09T00:00:00"
   authors: []
   cover_image: ""
   tags: []
@@ -72,7 +73,7 @@
 - id: "6999a391-b6ca-441d-b466-14f0bc6161fd"
   title: "meeting05"
   filename: "meeting05"
-  date: "2021-03-01T00:00:00"
+  date: "2021-03-23T00:00:00"
   authors: []
   cover_image: ""
   tags: []
@@ -86,7 +87,7 @@
 - id: "fec694ed-4faf-43a7-909d-cda25bebfa25"
   title: "meeting06"
   filename: "meeting06"
-  date: "2021-03-08T00:00:00"
+  date: "2021-04-06T00:00:00"
   authors: []
   cover_image: ""
   tags: []
