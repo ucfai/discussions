@@ -1,17 +1,19 @@
 # Check the Docs for details on editing this!
 - id: "46ff0e01-0124-4859-92e5-9f20e1ebefa3"
-  title: "meeting00"
-  filename: "meeting00"
-  date: "2021-01-25T00:00:00"
-  authors: []
-  cover_image: ""
-  tags: []
-  room: ""
+  title: "Speech Styles"
+  filename: "speech-styles"
+  date: "2021-01-26T18:00:00"
+  authors: ["PaulLunis"]
+  cover_image: "https://img.huffingtonpost.com/asset/5b9f14802000003000fea06c.jpeg?ops=scalefit_720_noupscale"
+  tags: ["speech to text", "speech representation", "linguistics", "speaking styles", "speech synthesis"]
+  room: "Online"
   abstract: >-
-    We're filling this out!
+   Hey everyone, Welcome to our first meeting of the semester! This week we'll be covering a speech synthesis paper that goes over capturing individual speaking styles. We hope to see you all there!
   urls: {}
   kaggle: {}
-  papers: {}
+  papers: 
+    speech-synthesis: http://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/Projects/speaking-by-observing-lip-movements/Learning_Individual_Speaking.pdf
+    how-to-paper: https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf
 # Check the Docs for details on editing this!
 - id: "2d44b6ad-1e6a-4352-80a1-74f3d59e84e6"
   title: "meeting01"
