@@ -3,17 +3,31 @@
   title: "Speech Styles"
   filename: "speech-styles"
   date: "2021-01-26T18:00:00"
-  authors: ["PaulLunis"]
-  cover_image: "https://img.huffingtonpost.com/asset/5b9f14802000003000fea06c.jpeg?ops=scalefit_720_noupscale"
-  tags: ["speech to text", "speech representation", "linguistics", "speaking styles", "speech synthesis"]
+  authors:
+  - PaulLunis
+  cover_image: ""
+  tags:
+  - speech to text
+  - speech representation
+  - linguistics
+  - speaking styles
+  - speech synthesis
   room: "Online"
   abstract: >-
-   Hey everyone, Welcome to our first meeting of the semester! This week we'll be covering a speech synthesis paper that goes over capturing individual speaking styles. We hope to see you all there!
-  urls: {}
-  kaggle: {}
-  papers: 
-    speech-synthesis: http://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/Projects/speaking-by-observing-lip-movements/Learning_Individual_Speaking.pdf
-    how-to-paper: https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf
+    Hey everyone, Welcome to our first meeting of the semester! This week we'll
+    be covering a speech synthesis paper that goes over capturing individual speaking
+    styles. We hope to see you all there!
+  urls:
+    slides: ""
+    video: ""
+  kaggle:
+    kernels: []
+    datasets: []
+    competitions: []
+    enable_gpu: false
+  papers:
+    speech-synthesis: "http://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/Projects/speaking-by-observing-lip-movements/Learning_Individual_Speaking.pdf"
+    how-to-paper: "https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf"
 # Check the Docs for details on editing this!
 - id: "2d44b6ad-1e6a-4352-80a1-74f3d59e84e6"
   title: "meeting01"
@@ -25,8 +39,14 @@
   room: ""
   abstract: >-
     We're filling this out!
-  urls: {}
-  kaggle: {}
+  urls:
+    slides: ""
+    video: ""
+  kaggle:
+    kernels: []
+    datasets: []
+    competitions: []
+    enable_gpu: false
   papers: {}
 # Check the Docs for details on editing this!
 - id: "a89e7d02-1bfb-4cc8-be22-8208cf62f4c4"
@@ -39,8 +59,14 @@
   room: ""
   abstract: >-
     We're filling this out!
-  urls: {}
-  kaggle: {}
+  urls:
+    slides: ""
+    video: ""
+  kaggle:
+    kernels: []
+    datasets: []
+    competitions: []
+    enable_gpu: false
   papers: {}
 # Check the Docs for details on editing this!
 - id: "03b19eb6-b78b-40fb-b799-57c3bce1e83d"
@@ -53,8 +79,14 @@
   room: ""
   abstract: >-
     We're filling this out!
-  urls: {}
-  kaggle: {}
+  urls:
+    slides: ""
+    video: ""
+  kaggle:
+    kernels: []
+    datasets: []
+    competitions: []
+    enable_gpu: false
   papers: {}
 # Check the Docs for details on editing this!
 - id: "44172abe-ad87-4123-882a-c52a6437d8ad"
@@ -67,8 +99,14 @@
   room: ""
   abstract: >-
     We're filling this out!
-  urls: {}
-  kaggle: {}
+  urls:
+    slides: ""
+    video: ""
+  kaggle:
+    kernels: []
+    datasets: []
+    competitions: []
+    enable_gpu: false
   papers: {}
 # Check the Docs for details on editing this!
 - id: "6999a391-b6ca-441d-b466-14f0bc6161fd"
@@ -81,8 +119,14 @@
   room: ""
   abstract: >-
     We're filling this out!
-  urls: {}
-  kaggle: {}
+  urls:
+    slides: ""
+    video: ""
+  kaggle:
+    kernels: []
+    datasets: []
+    competitions: []
+    enable_gpu: false
   papers: {}
 # Check the Docs for details on editing this!
 - id: "fec694ed-4faf-43a7-909d-cda25bebfa25"
@@ -95,8 +139,14 @@
   room: ""
   abstract: >-
     We're filling this out!
-  urls: {}
-  kaggle: {}
+  urls:
+    slides: ""
+    video: ""
+  kaggle:
+    kernels: []
+    datasets: []
+    competitions: []
+    enable_gpu: false
   papers: {}
 # Check the Docs for details on editing this!
 - id: "cf3887f2-2a6b-4ded-a45e-df276fc0e303"
@@ -109,8 +159,14 @@
   room: ""
   abstract: >-
     We're filling this out!
-  urls: {}
-  kaggle: {}
+  urls:
+    slides: ""
+    video: ""
+  kaggle:
+    kernels: []
+    datasets: []
+    competitions: []
+    enable_gpu: false
   papers: {}
 # Check the Docs for details on editing this!
 - id: "70214b98-49db-4eeb-a392-e0e11d17dc5a"
@@ -123,8 +179,14 @@
   room: ""
   abstract: >-
     We're filling this out!
-  urls: {}
-  kaggle: {}
+  urls:
+    slides: ""
+    video: ""
+  kaggle:
+    kernels: []
+    datasets: []
+    competitions: []
+    enable_gpu: false
   papers: {}
 # Check the Docs for details on editing this!
 - id: "161538dd-3edd-4539-a9cc-7e9592c46c9c"
@@ -137,8 +199,14 @@
   room: ""
   abstract: >-
     We're filling this out!
-  urls: {}
-  kaggle: {}
+  urls:
+    slides: ""
+    video: ""
+  kaggle:
+    kernels: []
+    datasets: []
+    competitions: []
+    enable_gpu: false
   papers: {}
 # Check the Docs for details on editing this!
 - id: "3f2e4173-ffc6-45d6-ad99-4e5579a33adc"
@@ -151,8 +219,14 @@
   room: ""
   abstract: >-
     We're filling this out!
-  urls: {}
-  kaggle: {}
+  urls:
+    slides: ""
+    video: ""
+  kaggle:
+    kernels: []
+    datasets: []
+    competitions: []
+    enable_gpu: false
   papers: {}
 # Check the Docs for details on editing this!
 - id: "65ccf1b6-4072-429b-8c34-13819bf03f2d"
@@ -165,8 +239,14 @@
   room: ""
   abstract: >-
     We're filling this out!
-  urls: {}
-  kaggle: {}
+  urls:
+    slides: ""
+    video: ""
+  kaggle:
+    kernels: []
+    datasets: []
+    competitions: []
+    enable_gpu: false
   papers: {}
 # Check the Docs for details on editing this!
 - id: "daa3571a-33b3-4e40-8aa8-4db87031139b"
@@ -179,6 +259,12 @@
   room: ""
   abstract: >-
     We're filling this out!
-  urls: {}
-  kaggle: {}
+  urls:
+    slides: ""
+    video: ""
+  kaggle:
+    kernels: []
+    datasets: []
+    competitions: []
+    enable_gpu: false
   papers: {}

@@ -3,11 +3,19 @@ name: "discussions"
 room: "Online"
 semester: "sp21"
 startdate: "2021-01-26T18:00:00"
-directors: ["PaulLunis"]
-coordinators: ["h3rmi0n3","PedroContipelli","ColonelToad","darenh"]
-guests: ["ionlights"]
+directors:
+- PaulLunis
+coordinators:
+- h3rmi0n3
+- PedroContipelli
+- ColonelToad
+- darenh
+guests:
+- ionlights
 advisors: []
 abstract: >-
-  This group focuses on reading research papers and discussing it with your peers. If you like hearing about new and interesting topics
-  in the field than this is a great place for you! Whether this is your first time reading a paper or you have experience with research,
-  we truly believe this group has something for everyone. 
+  This group focuses on reading research papers and discussing it with your peers.
+  If you like hearing about new and interesting topics in the field than this is
+  a great place for you! Whether this is your first time reading a paper or you
+  have experience with research, we truly believe this group has something for everyone.
+  
