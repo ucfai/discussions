@@ -30,24 +30,32 @@
     how-to-paper: "https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf"
 # Check the Docs for details on editing this!
 - id: "2d44b6ad-1e6a-4352-80a1-74f3d59e84e6"
-  title: "meeting01"
-  filename: "meeting01"
-  date: "2021-02-01T00:00:00"
-  authors: []
-  cover_image: ""
-  tags: []
-  room: ""
+  title: "Death and Taxes"
+  filename: "ai-taxes"
+  date: "2021-02-09T18:00:00"
+  authors:
+    - PaulLunis
+  cover_image: "https://blog.runnymede.com/hubfs/images/Moneyscales-WP-dimensions.png"
+  tags:
+  -tax simulation
+  -economics
+  -tax policies
+  -political science
+  -ethics
+  room: "Online"
   abstract: >-
-    We're filling this out!
+  This week in AI@UCF, Discussion will be covering a paper on AI simulated tax policies. 
+  If you're a fan of seeing if AI can create a better tax system than we can, catch our meeting this week!
   urls:
     slides: ""
-    video: ""
+    video: "https://www.youtube.com/watch?v=Sr2ga3BBMTc"
   kaggle:
     kernels: []
     datasets: []
     competitions: []
     enable_gpu: false
-  papers: {}
+  papers:
+    ai-tax-policies: https://arxiv.org/pdf/2004.13332.pdf 
 # Check the Docs for details on editing this!
 - id: "a89e7d02-1bfb-4cc8-be22-8208cf62f4c4"
   title: "meeting02"
